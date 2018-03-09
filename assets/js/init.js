@@ -158,6 +158,7 @@
     jQuery(document).ready(function($) {
     $("#loaded-content").hide();
     $('.more').on('click', function(event) {
+   
         event.preventDefault();
         var href = $(this).attr('href') + ' .single-project',
             portfolioList = $('#portfolio-item'),
