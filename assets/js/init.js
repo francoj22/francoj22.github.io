@@ -156,8 +156,8 @@
     });
     
     jQuery(document).ready(function($) {
-    $("#loaded-content").hide();
-    $('.more').on('click', function(event) {
+    $("#loaded-content-v2").hide();
+    $('.more-v2').on('click', function(event) {
    
         event.preventDefault();
         var href = $(this).attr('href') + ' .single-project',
@@ -175,12 +175,12 @@
             });
         },800);
     });
-    $('#back-button').on('click', function(event) {
+    $('#back-button-v2').on('click', function(event) {
         event.preventDefault();
         var portfolioList = $('#portfolio-item')
             content = $('#loaded-content');
         content.fadeOut(400);
-        $('#back-button').fadeOut(400);
+        $('#back-button-v2').fadeOut(400);
         setTimeout(function(){
             portfolioList.animate({'marginLeft':'0'},{duration:400,queue:false});
             portfolioList.fadeIn(600);
