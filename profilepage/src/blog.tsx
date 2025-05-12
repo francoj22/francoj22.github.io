@@ -31,13 +31,17 @@ export default function Blog() {
                         <div className="blog">
                             <div className="blog-post">
                                 <div className="thumbnail z-depth-1 animated">
-                                    <img src={fullImg} alt="" className="responsive-img" />
+                                    <img src={fullImg} alt="" className="header-content" />
                                     <div className="blog-details">
                                         <div className="post-title">
                                             <h3>{post.title}</h3>
-                                            <span>{post.date}</span>
+                                          
                                         </div>
                                         <div className="post-details">
+                                            <div className="author-name">
+                                                <h1>By: Franco Gutierrez</h1>
+                                                <h2>Date: {post.date}</h2>
+                                            </div>
                                        
                                             <div dangerouslySetInnerHTML={parsedContent}></div>
                                          

@@ -691,6 +691,25 @@ function MainPage() {
                 </h2>
               </div>
               <div className="cd-container" id="ed-timeline">
+              <div
+                  className="cd-timeline-block wow fadeIn a2"
+                  data-wow-delay="0.2s"
+                >
+
+              <div className="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+                  <div className="cd-timeline-img">
+                  </div> 
+                  <div className="cd-timeline-content col m5 s12 z-depth-1">
+                    <a href="">
+                      <h2>Master Class @Simplilearn</h2>
+                    </a>
+                    <span>2021</span>
+                    <p>The program is  a Master Class focused on Sprint Boot framework, Automation and Frontend Frameworks.</p>
+                    </div>
+								</div> 
+
+                </div>
+
                 <div
                   className="cd-timeline-block wow fadeIn a2"
                   data-wow-delay="0.2s"
@@ -817,7 +836,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/blog1-jorney-tracker.html">
+                          <a href="blogs/jorney-tracker.html">
                             <h2>Android Project</h2>
                             <span>GPS</span>
                           </a>
@@ -838,7 +857,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/blog2-english-draughts.html">
+                          <a href="blogs/english-draughts.html">
                             <h2>Android Project</h2>
                             <span>Game using Custom Views</span>
                           </a>
@@ -859,7 +878,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/blog4-memetomiaapp.html">
+                          <a href="blogs/memetomiaapp.html">
                             <h2>Android Project</h2>
                             <span>ListFragments,Fragments,SDK</span>
                           </a>
@@ -880,7 +899,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/blog5-stream4pro.html">
+                          <a href="blogs/stream4pro.html">
                             <h2>Android Project</h2>
                             <span>
                               Navigation Drawer, Fragment, Login Session

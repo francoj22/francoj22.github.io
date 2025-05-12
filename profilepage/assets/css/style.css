@@ -562,6 +562,24 @@ nav .button-collapse i {
 | BLOG
 |----------------------------------------------------------------------------
 */
+
+.author-name {
+  font-size: 16px;
+  line-height: 34px;
+  color: #4c4c4d;
+  display:  flex;
+  flex-direction: column;
+  h1 {
+    font-size: 30px;
+    line-height: 16px;
+    color: #404041;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+}
+
 #blog .section-title {
   text-align: center;
 }
@@ -613,6 +631,126 @@ nav .button-collapse i {
 #blog .post-details p {
   color: #8a8a8b;
 }
+.post-details h2 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #2196f3;
+}
+.post-details h2 a {
+  color: #2196f3;
+}
+.post-details h2 a:hover {
+  color: #2196f3;
+}
+.post-details h2 a:focus {
+  color: #2196f3;
+}
+.post-details h2 a:active {
+  color: #2196f3;
+}
+.post-details h2 span {
+  color: #8a8a8b;
+  font-size: 16px;
+  line-height: 34px;
+}
+.post-details h2 span i {
+  margin-right: 10px;
+}
+.post-details h2 span a {
+  color: #8a8a8b;
+}
+.post-details h2 span a:hover {
+  color: #8a8a8b;
+}
+.post-details h2 span a:focus {
+  color: #8a8a8b;
+}
+.post-details h2 span a:active {
+  color: #8a8a8b;
+}
+.post-details  {
+  p { 
+    font-family: var(--gh-font-body,var(--font-serif));
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #8a8a8b;
+    margin-top: 5px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: #8a8a8b;
+    }
+    li a {
+      color: #8a8a8b;
+    }
+    li a:hover {
+      color: #b6b6c6;
+    }
+    li a:focus {
+      color: #b6b6c6;
+    }
+  }
+
+
+
+}
+.post-details p a {
+  color: #8a8a8b;
+}
+.post-details p a:hover {
+  color: #8a8a8b;
+}
+.post-details p a:focus {
+  color: #8a8a8b;
+}
+.post-details p a:active {
+  color: #8a8a8b;
+}
+.post-details p span {
+  color: #8a8a8b;
+}
+.post-details p span a {
+  color: #8a8a8b;
+}
+.post-details p span a:hover {
+  color: #8a8a8b;
+}
+.post-details p span a:focus {
+  color: #8a8a8b;
+}
+.post-details p span a:active {
+  color: #8a8a8b;
+}
+.post-details p span i {
+  color: #8a8a8b;
+}
+.post-details p span i a {
+  color: #8a8a8b;
+}
+.post-details p span i a:hover {
+  color: #8a8a8b;
+}
+.post-details p span i a:focus {
+  color: #8a8a8b;
+}
+.post-details p span i a:active {
+  color: #8a8a8b;
+}
+.post-details p span i {
+  color: #8a8a8b;
+}
+.post-details p span i a {
+  color: #8a8a8b;
+}
 /*
 |----------------------------------------------------------------------------
 | FULL BLOG POST
@@ -624,80 +762,14 @@ nav .button-collapse i {
 .full-post .blog-details {
   padding: 20px;
 }
-.clear {
-  clear: both;
+
+.header-content {
+  padding: 5px;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
-/*
-|----------------------------------------------------------------------------
-| COMMENT
-|----------------------------------------------------------------------------
-*/
-.comment {
-  background-color: #fff;
-  margin-top: 20px;
-}
-.comment .comment-img {
-  padding: 10px;
-}
-.comment .comment-details {
-  padding: 10px;
-}
-.comment .comment-details h4 {
-  margin: 0px;
-}
-.comment .comment-details span {
-  font-size: 9pt;
-  line-height: 17pt;
-}
-.comment-form {
-  padding: 30px !important;
-  margin: 20px 0px;
-  background-color: #fff;
-  text-align: left;
-}
-.comment-form .btn {
-  text-align: center;
-}
-/*
-|----------------------------------------------------------------------------
-| PRICING
-|----------------------------------------------------------------------------
-*/
-#pricing-table .pricing .plan {
-  text-align: center;
-}
-#pricing-table .pricing .plan .thumbnail {
-  list-style-type: none;
-  padding: 30px;
-}
-#pricing-table .pricing .plan .thumbnail li {
-  margin-top: 5px;
-  font-style: italic;
-}
-#pricing-table .pricing .plan .thumbnail li strong {
-  font-style: normal;
-}
-#pricing-table .pricing .plan .thumbnail li h3 {
-  font-size: 60px;
-  font-weight: bold;
-  font-style: normal;
-  color: #8a8a8b;
-  margin: 30px 0px;
-}
-#pricing-table .pricing .plan .thumbnail li .span {
-  opacity: 0.7;
-}
-#pricing-table .pricing .plan .thumbnail .btn {
-  padding: 7px 30px;
-  margin-top: 30px;
-  background-color: #2196f3;
-  font-style: normal;
-}
-/*
-|----------------------------------------------------------------------------
-| CLIENTS
-|----------------------------------------------------------------------------
-*/
+
 .clients-quates {
   text-align: center;
   margin-top: 70px;
@@ -744,30 +816,7 @@ nav .button-collapse i {
   display: inline-block;
   margin: 0 0 0 4px;
 }
-/*
-|----------------------------------------------------------------------------
-| CLIENTS LOGO
-|----------------------------------------------------------------------------
-*/
-.clients-logo {
-  background-color: #ffffff;
-  margin-top: 20px;
-}
-.clients-logo ul {
-  margin: 0px auto;
-  text-align: center;
-  overflow: hidden;
-  padding: 20px 0px;
-}
-.clients-logo ul li {
-  list-style-type: none;
-  display: inline;
-  text-align: center;
-  margin-top: 10px;
-}
-.clients-logo ul li img {
-  width: 50%;
-}
+
 /*
 |----------------------------------------------------------------------------
 | CONTATCT FORM

@@ -45,11 +45,12 @@ const POSTS = [
         <p> -GameView: Refers to the View of the application</p>
         <p> -MainActivity: Which is the main class, working as the controller of the app.</p>
         <p> -PlayerEnum and Stone: Which are class helper for the application</p>
-        <p>&nbsp;</p>
-        <p><strong>Resources</strong> :</p>
-        <p>&nbsp;<br />
-        <a href="https://developer.android.com/index.html">Official WebSite. Android</a><br />
-        <a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a>
+        <p><strong>Resources:</strong></p>
+        <ul>
+          <li><a href="https://developer.android.com/index.html">Official WebSite. Android</a></li>
+          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+        </ul>
+
       `,
     date: "2015",
   },
@@ -59,7 +60,7 @@ const POSTS = [
       "Journey-tracker. Building a GPS tracker that will analyse user speed. MSCC- New and Emerging Technologies",
     content: `
         <div class="row">
-            <div class="col s6"><img class="responsive-img" src="assets/images/journey1.png" border="0" alt=""></div>
+            <div class="col 12 s6"><img class="responsive-img" src="assets/images/journey1.png" border="0" alt=""></div>
             <div class="col  s6"><img class="responsive-img" src="assets/images/journey2.png" border="0" alt=""></div>
         </div>       
         <p >This project is tasked with building a GPS tracker application where use a custom view and the GPS facilities of an android device</p>
@@ -79,11 +80,12 @@ const POSTS = [
         <p>PostData: To achieve the mock location was used a mock locations app to generate a route with
         varing speeds. Link Mock Location made by David <a href="https://play.google.com/store/apps/details?id=ru.gavrikov.mocklocations"> Mock Location app</a>  </p>
         <p>&nbsp;</p>
-        <p><strong>Resources</strong> :</p>
-        <p>&nbsp;<br />
-        &nbsp;<a href="https://www.jayway.com/2012/12/12/creating-custom-android-views-part-4-measuring-and-how-to-force-a-view-to-be-square/">Custom View Sample. Anders Ericsson</a><br />
-        &nbsp;<a href="https://developer.android.com/index.html">Official WebSite. Android</a><br />
-        <!-- .entry-content -->             
+        <!-- .entry-content -->  
+        <p><strong>Resources:</strong></p>
+        <ul>
+          <li><a href="https://www.jayway.com/2012/12/12/creating-custom-android-views-part-4-measuring-and-how-to-force-a-view-to-be-square/">Custom View Sample. Anders Ericsson</a></li>
+          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+        </ul>           
       `,
     date: "2015",
   },
@@ -114,18 +116,17 @@ const POSTS = [
         <p> ** Force be with you Memetomia </p>
 
         <p>&nbsp;</p>
-        <p><strong>Resources</strong> :</p>
-        <p>&nbsp;<br />
-        <a href="https://developer.android.com/index.html">Official WebSite. Android</a><br />
-        <a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a>
-        <br />
-        <!-- .entry-content -->
-          <a href="https://www.facebook.com/Memetomia/">Offical WebSite. Memetomia</a>
+
+        <p><strong>Resources:</strong></p>
+        <ul>
+          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+          <li><a href="https://www.facebook.com/Memetomia/">Offical WebSite. Memetomia</a></li>
+        </ul>           
       `,
     date: "2013",
   },
   {
-    id: "blog5-stream4pro.html",
+    id: "stream4pro.html",
     title: "Navigation Drawer, Fragment, Login Session",
     content: `
         <a href="https://play.google.com/store/apps/details?id=com.qs.s4p&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
@@ -144,14 +145,14 @@ const POSTS = [
         - Share their videos with other stream4pro users</p>
         
         <p>I worked as a team with my colleagues (Juan Diego and Nelson Garcia)</p>
-        <p>We worked all togheter trying to create the first prototypes of this project under the supervision of Roberto Prato. My experience there was excellent.</p>
-        <p>The features that we implemented was the sign in, the navigations between the layouts using tabs, fragment, listfragment and navigation drawer.</p>
-        
-        <p><strong>Resources</strong> :</p>
-        <p>&nbsp;<br />
-        <a href="https://developer.android.com/index.html">Official WebSite. Android</a><br />
-        <a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a>
-        <!-- .entry-content -->
+        <p>Worked on a solution envolving navigation bar with video streamming on a core java mobile application, the result were  the creation the first version on Google,  project under the supervision by Roberto Prato.</p>
+        <p>The features that we implemented was the sign in, the navigations between the layouts using tabs, fragment, listfragment and navigation drawer.</p> 
+
+        <p><strong>Resources:</strong></p>
+        <ul>
+          <li><a href="https://developer.android.com/index.html">Official WebSite. Android</a></li>
+          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+        </ul> 
       `,
     date: "2014",
   },
