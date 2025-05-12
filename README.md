@@ -1,3 +1,14 @@
-#Hi!, I'm Franco Gutierrez
+# Hi!, I'm Franco Gutierrez
 
-#francoj22.github.io
+Welcome to my profile page. More info on
+
+# francoj22.github.io - link (https://francoj22.github.io)
+
+# React + TypeScript + Vite Project
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
