@@ -7,5 +7,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   assetsInclude: ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
-  base: './'
+  base: './',
+  build: {    
+     outDir: 'dist'
+  },
 })

@@ -7,6 +7,7 @@ import medicalSite from './assets/images/bluebridgetech.png';
 import liveirishradio from './assets/images/liveirishradio.jpg';
 import AIproject from './assets/images/project-ia.png';
 import mailboxSite from './assets/images/project-mailbox.png'
+import { Link } from "react-router";
 
 function MainPage() {
   return (
@@ -826,6 +827,7 @@ function MainPage() {
                             <h2>Research Methods</h2>
                             <span>Consciousness</span>
                           </a>
+                          <Link to={"blog/blog-research"}>Read More</Link>
                         </div>
                         <div className="post-details">
                           <p>

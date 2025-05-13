@@ -20,7 +20,7 @@ export default function Blog() {
     const parsedContent = parseContent(post);
 
     if (!post) {
-        return <div>Blog Post Not Found</div>;
+        return <div>Blog not found</div>;
     }
 
     return (

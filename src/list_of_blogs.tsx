@@ -1,6 +1,6 @@
 const POSTS = [
   {
-    id: "research-methods.html",
+    id: "blog-research",
     title: "Consciousness. MSCC- Research Methods",
     content: `
         <p>What is the Consciousness, who is talking about it, their interview provides, the interest found about it, all of this you will be able to get started from this article.</p>
