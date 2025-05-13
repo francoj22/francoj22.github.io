@@ -1,4 +1,12 @@
 import "./App.css";
+import profile from './assets/images/short-profile.png';
+import fideitySite from './assets/images/fidelity.png';
+import exadsSite from './assets/images/exads.png';
+import equifaxSite from './assets/images/equifax.png';
+import medicalSite from './assets/images/bluebridgetech.png';
+import liveirishradio from './assets/images/liveirishradio.jpg';
+import AIproject from './assets/images/project-ia.png';
+import mailboxSite from './assets/images/project-mailbox.png'
 
 function MainPage() {
   return (
@@ -101,7 +109,7 @@ function MainPage() {
                     className="profile-pic wow fadeIn a1"
                     data-wow-delay="0.1s"
                   >
-                    <img src="assets/images/short-profile.png" alt="" />
+                    <img src={profile} alt="" />
                   </div>
                 </div>
                 <div
@@ -465,8 +473,8 @@ function MainPage() {
                         <img
                           height="500px"
                           width="500px"
-                          src="assets/images/fidelity-website.png"
-                          alt="Screenshot 01"
+                          src={fideitySite}
+                          alt="Screenshotite 01"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -489,7 +497,7 @@ function MainPage() {
                         <img
                           height="500px"
                           width="500px"
-                          src="assets/images/exads-website.png"
+                          src={exadsSite}
                           alt="Screenshot 01"
                         />
                         <figcaption>
@@ -513,7 +521,7 @@ function MainPage() {
                         <img
                           height="500px"
                           width="500px"
-                          src="assets/images/equifax-website.png"
+                          src={equifaxSite}
                           alt="Screenshot 01"
                         />
                         <figcaption>
@@ -537,7 +545,7 @@ function MainPage() {
                         <img
                           height="500px"
                           width="500px"
-                          src="assets/images/medicalapp.png"
+                          src={medicalSite}
                           alt="Screenshot 01"
                         />
                         <figcaption>
@@ -558,7 +566,7 @@ function MainPage() {
                         <img
                           height="200px"
                           width="200px"
-                          src="assets/images/liveirishradio.jpg"
+                          src={liveirishradio}
                           alt="Screenshot 01"
                         />
                         <figcaption>
@@ -597,7 +605,7 @@ function MainPage() {
                         <img
                           height="200px"
                           width="200px"
-                          src="assets/images/project-ia.png"
+                          src={AIproject}
                           alt="Screenshot 01"
                         />
                         <figcaption>
@@ -618,7 +626,7 @@ function MainPage() {
                         <img
                           height="200px"
                           width="200px"
-                          src="assets/images/project-mailbox.png"
+                          src={mailboxSite}
                           alt="Screenshot 01"
                         />
                         <figcaption>

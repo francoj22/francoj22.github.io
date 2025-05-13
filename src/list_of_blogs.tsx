@@ -60,8 +60,8 @@ const POSTS = [
       "Journey-tracker. Building a GPS tracker that will analyse user speed. MSCC- New and Emerging Technologies",
     content: `
         <div class="row">
-            <div class="col 12 s6"><img class="responsive-img" src="assets/images/journey1.png" border="0" alt=""></div>
-            <div class="col  s6"><img class="responsive-img" src="assets/images/journey2.png" border="0" alt=""></div>
+            <div class="col 12 s6"><img class="responsive-img" src="./assets/images/journey1.png" border="0" alt=""></div>
+            <div class="col  s6"><img class="responsive-img" src="./assets/images/journey2.png" border="0" alt=""></div>
         </div>       
         <p >This project is tasked with building a GPS tracker application where use a custom view and the GPS facilities of an android device</p>
         <p>This application is used to track the user's speed as they travel on a journey.</p>

@@ -1,7 +1,7 @@
 import POSTS from "./list_of_blogs";
 import { useParams } from 'react-router-dom';
 
-import fullImg from '../assets/images/full-img.jpg';
+import fullImg from './assets/images/full-img.jpg';
 
 
 function parseContent(post: { id: string; title: string; content: string; date: string; } | undefined): { __html: string } {
