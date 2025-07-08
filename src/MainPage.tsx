@@ -610,7 +610,7 @@ function MainPage() {
                           height="500px"
                           width="500px"
                           src={medicalSite}
-                          alt="Screenshot 01"
+                          alt="medicalSite1"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -631,7 +631,7 @@ function MainPage() {
                           height="200px"
                           width="200px"
                           src={liveirishradio}
-                          alt="Screenshot 01"
+                          alt="liveirishradio"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -652,7 +652,7 @@ function MainPage() {
                           height="200px"
                           width="200px"
                           src={stream1}
-                          alt="Screenshot 01"
+                          alt="stream1"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -670,7 +670,7 @@ function MainPage() {
                           height="200px"
                           width="200px"
                           src={AIproject}
-                          alt="Screenshot 01"
+                          alt="AIproject"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -691,7 +691,7 @@ function MainPage() {
                           height="200px"
                           width="200px"
                           src={mailboxSite}
-                          alt="Screenshot 01"
+                          alt="mailboxSite"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -708,7 +708,12 @@ function MainPage() {
                     </li>
                     <li className="col m4 s12 category-1">
                       <figure className="more">
-                        <img src={scuv14} alt="Screenshot 01" />
+                        <img
+                          height="200px"
+                          width="200px"
+                          src={scuv14}
+                          alt="scuv14"
+                        />
                         <figcaption>
                           <div className="caption-content">
                             <div className="single_image">
