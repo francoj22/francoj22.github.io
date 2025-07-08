@@ -1,0 +1,36 @@
+/* Skill bar width overrides for production */
+#skills .progress .determinate {
+  width: 60% !important;
+}
+
+#skills .progress:nth-of-type(2) .determinate {
+  width: 85% !important;
+}
+
+#skills .progress:nth-of-type(3) .determinate {
+  width: 85% !important;
+}
+
+#skills .progress:nth-of-type(4) .determinate {
+  width: 85% !important;
+}
+
+#skills .progress:nth-of-type(5) .determinate {
+  width: 85% !important;
+}
+
+#skills .progress:nth-of-type(6) .determinate {
+  width: 50% !important;
+}
+
+#skills .progress:nth-of-type(7) .determinate {
+  width: 95% !important;
+}
+
+#skills .progress:nth-of-type(8) .determinate {
+  width: 90% !important;
+}
+
+#skills .progress:nth-of-type(9) .determinate {
+  width: 40% !important;
+}
