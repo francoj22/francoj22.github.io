@@ -6,6 +6,7 @@ import equifaxSite from './assets/images/equifax.png';
 import medicalSite from './assets/images/bluebridgetech.png';
 import liveirishradio from './assets/images/liveirishradio.jpg';
 import AIproject from './assets/images/project-ia.png';
+import stream1 from './assets/images/stream1.jpg';
 import mailboxSite from './assets/images/project-mailbox.png'
 import { Link } from "react-router";
 
@@ -588,7 +589,7 @@ function MainPage() {
                         <img
                           height="200px"
                           width="200px"
-                          src="assets/images/stream1.jpg"
+                          src={stream1}
                           alt="Screenshot 01"
                         />
                         <figcaption>
