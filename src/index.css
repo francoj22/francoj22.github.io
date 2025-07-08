@@ -54,6 +54,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Skill bar width classes */
+.skill-width-40 .determinate { width: 40% !important; }
+.skill-width-50 .determinate { width: 50% !important; }
+.skill-width-60 .determinate { width: 60% !important; }
+.skill-width-85 .determinate { width: 85% !important; }
+.skill-width-90 .determinate { width: 90% !important; }
+.skill-width-95 .determinate { width: 95% !important; }
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
