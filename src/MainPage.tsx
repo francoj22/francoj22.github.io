@@ -562,7 +562,7 @@ function MainPage() {
                           height="500px"
                           width="500px"
                           src={exadsSite}
-                          alt="Screenshot 01"
+                          alt="ExdasSite"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -586,7 +586,7 @@ function MainPage() {
                           height="500px"
                           width="500px"
                           src={equifaxSite}
-                          alt="Screenshot 01"
+                          alt="equifaxsite"
                         />
                         <figcaption>
                           <div className="caption-content">
