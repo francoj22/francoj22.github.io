@@ -8,6 +8,7 @@ import liveirishradio from './assets/images/liveirishradio.jpg';
 import AIproject from './assets/images/project-ia.png';
 import stream1 from './assets/images/stream1.jpg';
 import mailboxSite from './assets/images/project-mailbox.png'
+import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
 
 function MainPage() {
@@ -193,47 +194,65 @@ function MainPage() {
 
                       <span>Python</span>
                       <div className="progress">
-                        <div className="determinate">60%</div>
+                        <div className="determinate" style={{ width: "60%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Javascript/Typescript(Angular and ReactJS)</span>
                       <div className="progress">
-                        <div className="determinate">85%</div>
+                        <div className="determinate" style={{ width: "85%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Java(SE and EE), Spring Boot, Hibernate</span>
                       <div className="progress">
-                        <div className="determinate">85%</div>
+                        <div className="determinate" style={{ width: "85%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Mysql, MongoDB, NoSQL</span>
                       <div className="progress">
-                        <div className="determinate">85%</div>
+                        <div className="determinate" style={{ width: "85%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Docker, Kubernetes, AWS, CI/CD</span>
                       <div className="progress">
-                        <div className="determinate">85%</div>
+                        <div className="determinate" style={{ width: "85%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Adobe Photoshop</span>
                       <div className="progress">
-                        <div className="determinate">50%</div>
+                        <div className="determinate" style={{ width: "50%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>HTML</span>
                       <div className="progress">
-                        <div className="determinate">95%</div>
+                        <div className="determinate" style={{ width: "95%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>CSS</span>
                       <div className="progress">
-                        <div className="determinate">90%</div>
+                        <div className="determinate" style={{ width: "90%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>LLM, RAG, and Agents</span>
                       <div className="progress">
-                        <div className="determinate">40%</div>
+                        <div className="determinate" style={{ width: "40%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -248,22 +267,30 @@ function MainPage() {
                       <h3>Personal Skills </h3>
                       <span>Communication, Planning</span>
                       <div className="progress">
-                        <div className="determinate">90%</div>
+                        <div className="determinate" style={{ width: "90%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Team Work</span>
                       <div className="progress">
-                        <div className="determinate">95%</div>
+                        <div className="determinate" style={{ width: "95%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Creativity</span>
                       <div className="progress">
-                        <div className="determinate">90%</div>
+                        <div className="determinate" style={{ width: "90%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
 
                       <span>Dedication</span>
                       <div className="progress">
-                        <div className="determinate">85%</div>
+                        <div className="determinate" style={{ width: "85%" }}>
+                          <i className="fa fa-circle"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -646,10 +673,7 @@ function MainPage() {
                     </li>
                     <li className="col m4 s12 category-1">
                       <figure className="more">
-                        <img
-                          src="assets/images/project-scuv14.png"
-                          alt="Screenshot 01"
-                        />
+                        <img src={scuv14} alt="Screenshot 01" />
                         <figcaption>
                           <div className="caption-content">
                             <div className="single_image">
@@ -701,23 +725,26 @@ function MainPage() {
                 </h2>
               </div>
               <div className="cd-container" id="ed-timeline">
-              <div
+                <div
                   className="cd-timeline-block wow fadeIn a2"
                   data-wow-delay="0.2s"
                 >
-
-              <div className="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
-                  <div className="cd-timeline-img">
-                  </div> 
-                  <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="">
-                      <h2>Master Class @Simplilearn</h2>
-                    </a>
-                    <span>2021</span>
-                    <p>The program is  a Master Class focused on Sprint Boot framework, Automation and Frontend Frameworks.</p>
+                  <div
+                    className="cd-timeline-block wow fadeIn a2"
+                    data-wow-delay="0.2s"
+                  >
+                    <div className="cd-timeline-img"></div>
+                    <div className="cd-timeline-content col m5 s12 z-depth-1">
+                      <a href="">
+                        <h2>Master Class @Simplilearn</h2>
+                      </a>
+                      <span>2021</span>
+                      <p>
+                        The program is a Master Class focused on Sprint Boot
+                        framework, Automation and Frontend Frameworks.
+                      </p>
                     </div>
-								</div> 
-
+                  </div>
                 </div>
 
                 <div
