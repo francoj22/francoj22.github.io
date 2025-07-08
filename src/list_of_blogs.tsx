@@ -4,11 +4,11 @@ const POSTS = [
     title: "Consciousness. MSCC- Research Methods",
     content: `
         <p>What is the Consciousness, who is talking about it, their interview provides, the interest found about it, all of this you will be able to get started from this article.</p>
-        <p>According to the link provided I have chosen “The consciousness”, David Chalmers describes it in his discussion as “being conscious is when there is something it is like to be that being” in other words according to Thomas Nagel defined it in his publication as “is what makes the mind-body problem really intractable”.</p>
+        <p>According to the link provided I have chosen 'The consciousness', David Chalmers describes it in his discussion as 'being conscious is when there is something it is like to be that being' in other words according to Thomas Nagel defined it in his publication as 'is what makes the mind-body problem really intractable'.</p>
         <p>But who is David Chalmers? He is an Australian Philosopher and cognitive scientist specializing in the area of philosophy of mind and philosophy of language. He got an education at Indiana University Bloomington, Lincoln College, Oxford University, and Hofstadter. His famous books include <em>The Conscious Mind</em> published in 1996, <em>Constructing the World</em> in 2012, and <em>The Character of Consciousness</em> in 2010. Right now, he is a professor at New York University and the Australian National University. He gave some conferences about it, explaining that it is a subject of experiences in your mind. Please watch the video <a href="http://www.ted.com/talks/david_chalmers_how_do_you_explain_consciousness">clicking here</a> for more information.</p>
         <p>Thus, consciousness is the way that the mind and body are connected and can define its nature skills by the process of executing it with the finality to find solutions to each problem.</p>
-        <p>David also described consciousness in different ways: “easy problems” and “hard problems.” He has defined the easy problems as “abilities to discriminate stimuli or to report information, or to monitor different states, or to control behavior.” On the other hand, the hard problems are defined as “the problem of the experience.” He describes as well that the meaning of his words is “there is something it is like to be them.”</p>
-        <p>Therefore, the easy problems could be represented by complex problems where they could be implemented by machines. The author also describes that these problems seem to be no deep problems and one physical system could manage in these senses. However, the complexity of the “hard problems” involves the human experience where he describes that this consciousness includes a mental state and it is associated with a physical system such as the brain.</p>
+        <p>David also described consciousness in different ways: 'easy problems' and 'hard problems.' He has defined the easy problems as 'abilities to discriminate stimuli or to report information, or to monitor different states, or to control behavior.' On the other hand, the hard problems are defined as 'the problem of the experience.' He describes as well that the meaning of his words is 'there is something it is like to be them.'</p>
+        <p>Therefore, the easy problems could be represented by complex problems where they could be implemented by machines. The author also describes that these problems seem to be no deep problems and one physical system could manage in these senses. However, the complexity of the 'hard problems' involves the human experience where he describes that this consciousness includes a mental state and it is associated with a physical system such as the brain.</p>
         <p>The mystery of consciousness looks interesting where the author mentions the hard problems. How do machines take place in these cases? One question provided is how these processes take place in the dark without any state of experience, or clarifying new problems or questions as mentioned by Dr. Howard Gardner.</p>
         <p><strong>Resources:</strong></p>
         <ul>
@@ -22,7 +22,8 @@ const POSTS = [
   },
   {
     id: "english-draughts.html",
-    title: "English Draughts. Making a fully working draughts application. MSCC- New and Emerging Technologies ",
+    title:
+      "English Draughts. Making a fully working draughts application. MSCC- New and Emerging Technologies ",
     content: `
         <p >The game of draughts is an old game that is still popular to this day. The objective
         of the game is to capture and remove all of the opponent's pieces from the board.
