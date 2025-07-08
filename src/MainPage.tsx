@@ -193,65 +193,72 @@ function MainPage() {
                       <h3>Professional Skills </h3>
 
                       <span>Python</span>
-                      <div className="progress skill-width-60">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">60%</i>
                         </div>
                       </div>
 
                       <span>Javascript/Typescript(Angular and ReactJS)</span>
-                      <div className="progress skill-width-85">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Java(SE and EE), Spring Boot, Hibernate</span>
-                      <div className="progress skill-width-85">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Mysql, MongoDB, NoSQL</span>
-                      <div className="progress skill-width-85">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Docker, Kubernetes, AWS, CI/CD</span>
-                      <div className="progress skill-width-85">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Adobe Photoshop</span>
-                      <div className="progress skill-width-50">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">50%</i>
                         </div>
                       </div>
 
                       <span>HTML</span>
-                      <div className="progress skill-width-95">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">95%</i>
                         </div>
                       </div>
 
                       <span>CSS</span>
-                      <div className="progress skill-width-90">
+                      <div className="progress">
                         <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">90%</i>
                         </div>
                       </div>
 
                       <span>LLM, RAG, and Agents</span>
-                      <div className="progress skill-width-40">
-                        <div className="determinate">
-                          <i className="fa fa-circle"></i>
+                      <div className="progress">
+                        <div
+                          className="determinate"
+                          style={{
+                            width: "40%",
+                            minWidth: "40%",
+                            maxWidth: "40%",
+                          }}
+                        >
+                          <i className="fa fa-circle">40%</i>
                         </div>
                       </div>
                     </div>
@@ -275,7 +282,7 @@ function MainPage() {
                             maxWidth: "90%",
                           }}
                         >
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">90%</i>
                         </div>
                       </div>
 
@@ -289,7 +296,7 @@ function MainPage() {
                             maxWidth: "95%",
                           }}
                         >
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">95%</i>
                         </div>
                       </div>
 
@@ -303,7 +310,7 @@ function MainPage() {
                             maxWidth: "90%",
                           }}
                         >
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">90%</i>
                         </div>
                       </div>
 
@@ -317,7 +324,7 @@ function MainPage() {
                             maxWidth: "85%",
                           }}
                         >
-                          <i className="fa fa-circle"></i>
+                          <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
                     </div>
