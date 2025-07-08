@@ -194,63 +194,63 @@ function MainPage() {
 
                       <span>Python</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "60%" }}>
+                        <div className="determinate" style={{ width: "60% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Javascript/Typescript(Angular and ReactJS)</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "85%" }}>
+                        <div className="determinate" style={{ width: "85% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Java(SE and EE), Spring Boot, Hibernate</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "85%" }}>
+                        <div className="determinate" style={{ width: "85% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Mysql, MongoDB, NoSQL</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "85%" }}>
+                        <div className="determinate" style={{ width: "85% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Docker, Kubernetes, AWS, CI/CD</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "85%" }}>
+                        <div className="determinate" style={{ width: "85% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Adobe Photoshop</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "50%" }}>
+                        <div className="determinate" style={{ width: "50% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>HTML</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "95%" }}>
+                        <div className="determinate" style={{ width: "95% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>CSS</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "90%" }}>
+                        <div className="determinate" style={{ width: "90% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>LLM, RAG, and Agents</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "40%" }}>
+                        <div className="determinate" style={{ width: "40% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
@@ -267,28 +267,28 @@ function MainPage() {
                       <h3>Personal Skills </h3>
                       <span>Communication, Planning</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "90%" }}>
+                        <div className="determinate" style={{ width: "90% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Team Work</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "95%" }}>
+                        <div className="determinate" style={{ width: "95% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Creativity</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "90%" }}>
+                        <div className="determinate" style={{ width: "90% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
                       <span>Dedication</span>
                       <div className="progress">
-                        <div className="determinate" style={{ width: "85%" }}>
+                        <div className="determinate" style={{ width: "85% !important" }}>
                           <i className="fa fa-circle"></i>
                         </div>
                       </div>
