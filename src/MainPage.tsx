@@ -891,11 +891,10 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/research-methods.html">
+                          <Link to={"blogs/blog-research"}>
                             <h2>Research Methods</h2>
                             <span>Consciousness</span>
-                          </a>
-                          <Link to={"blog/blog-research"}>Read More</Link>
+                          </Link>
                         </div>
                         <div className="post-details">
                           <p>
@@ -914,7 +913,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/jorney-tracker.html">
+                          <a href="blogs/jorney-tracker">
                             <h2>Android Project</h2>
                             <span>GPS</span>
                           </a>
@@ -935,7 +934,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/english-draughts.html">
+                          <a href="blogs/english-draughts">
                             <h2>Android Project</h2>
                             <span>Game using Custom Views</span>
                           </a>
@@ -956,7 +955,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/memetomiaapp.html">
+                          <a href="blogs/memetomiaapp">
                             <h2>Android Project</h2>
                             <span>ListFragments,Fragments,SDK</span>
                           </a>
@@ -977,7 +976,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/stream4pro.html">
+                          <a href="blogs/stream4pro">
                             <h2>Android Project</h2>
                             <span>
                               Navigation Drawer, Fragment, Login Session
