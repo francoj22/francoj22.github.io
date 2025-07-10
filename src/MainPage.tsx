@@ -112,7 +112,7 @@ function MainPage() {
                     className="profile-pic wow fadeIn a1"
                     data-wow-delay="0.1s"
                   >
-                    <img src={profile} alt="" />
+                      <img src={profile} alt="" />
                   </div>
                 </div>
                 <div

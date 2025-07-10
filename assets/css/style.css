@@ -330,14 +330,15 @@ nav .button-collapse i {
 
 #about .profile-pic {
   width: 150px;
-  height: 150px;
+  height: 122px;
   display: inline-block;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  margin-top: -100px;
+  border: solid 3px #f08513;
+    max-width: 200px;
 }
 
 #about .profile-pic img {
@@ -345,11 +346,11 @@ nav .button-collapse i {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border-radius: 50%;
-  height: 150px;
+  border-radius: 60%;
+  height: 122px;
   width: 150px;
+  padding: 10px;
   vertical-align: middle;
-  margin-top: -70px;
 }
 
 #about .intro-content {
