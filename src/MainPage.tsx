@@ -10,8 +10,23 @@ import stream1 from './assets/images/stream1.jpg';
 import mailboxSite from './assets/images/project-mailbox.png'
 import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
+import { useEffect } from 'react';
+
+import $ from 'jquery';
+
 
 function MainPage() {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = '/assets/js/init.js'; // your external JS file
+    document.body.appendChild(script);
+    //e.g 
+    $('#examplebutton').on('click', () => {
+      $('#exampletext').text('Updated by jQuery!');
+    });
+  }, []);
+
   return (
     <>
       <>
@@ -194,56 +209,96 @@ function MainPage() {
 
                       <span>Python</span>
                       <div className="progress">
-                        <div className="determinate">
+                        <div className="determinate"
+                          style={{
+                            width: "60%",
+                            minWidth: "60%",
+                            maxWidth: "60%",
+                          }}>
                           <i className="fa fa-circle">60%</i>
                         </div>
                       </div>
 
                       <span>Javascript/Typescript(Angular and ReactJS)</span>
                       <div className="progress">
-                        <div className="determinate">
+                        <div className="determinate"
+                          style={{
+                            width: "85%",
+                            minWidth: "85%",
+                            maxWidth: "85%",
+                          }}>
                           <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Java(SE and EE), Spring Boot, Hibernate</span>
                       <div className="progress">
-                        <div className="determinate">
-                          <i className="fa fa-circle">85%</i>
+                        <div className="determinate"
+                          style={{
+                            width: "70%",
+                            minWidth: "70%",
+                            maxWidth: "70%",
+                          }}>
+                          <i className="fa fa-circle">70%</i>
                         </div>
                       </div>
 
                       <span>Mysql, MongoDB, NoSQL</span>
                       <div className="progress">
-                        <div className="determinate">
+                        <div className="determinate"
+                          style={{
+                            width: "90%",
+                            minWidth: "90%",
+                            maxWidth: "90%",
+                          }}>
                           <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Docker, Kubernetes, AWS, CI/CD</span>
                       <div className="progress">
-                        <div className="determinate">
-                          <i className="fa fa-circle">85%</i>
+                        <div className="determinate" 
+                          style={{
+                            width: "60%",
+                            minWidth: "60%",
+                            maxWidth: "60%",
+                          }}>
+                          <i className="fa fa-circle">60%</i>
                         </div>
                       </div>
 
                       <span>Adobe Photoshop</span>
                       <div className="progress">
-                        <div className="determinate">
+                        <div className="determinate"
+                          style={{
+                            width: "50%",
+                            minWidth: "50%",
+                            maxWidth: "50%",
+                          }}>
                           <i className="fa fa-circle">50%</i>
                         </div>
                       </div>
 
                       <span>HTML</span>
                       <div className="progress">
-                        <div className="determinate">
+                        <div className="determinate"
+                          style={{
+                            width: "90%",
+                            minWidth: "90%",
+                            maxWidth: "90%",
+                          }}>
                           <i className="fa fa-circle">95%</i>
                         </div>
                       </div>
 
                       <span>CSS</span>
                       <div className="progress">
-                        <div className="determinate">
+                        <div className="determinate"
+                          style={{
+                            width: "90%",
+                            minWidth: "90%",
+                            maxWidth: "90%",
+                          }}>
                           <i className="fa fa-circle">90%</i>
                         </div>
                       </div>
