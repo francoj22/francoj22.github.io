@@ -11,6 +11,10 @@ import mailboxSite from './assets/images/project-mailbox.png'
 import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
 import { useEffect } from 'react';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import WOW from 'wowjs';
+import 'animate.css';
 
 import $ from 'jquery';
 
@@ -18,6 +22,7 @@ import $ from 'jquery';
 function MainPage() {
 
   useEffect(() => {
+    new WOW.WOW({ live: false }).init();
     const script = document.createElement('script');
     script.src = '/assets/js/init.js'; // your external JS file
     document.body.appendChild(script);
