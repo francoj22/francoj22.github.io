@@ -984,10 +984,10 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blog/jorney-tracker">
-                            <h2>Android Project</h2>
+                          <Link to={"blog/jorney-tracker"}>
+                            <h2>Andorid Project</h2>
                             <span>GPS</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className="post-details">
                           <p>
@@ -1005,10 +1005,10 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blog/english-draughts">
+                          <Link to="blog/english-draughts">
                             <h2>Android Project</h2>
                             <span>Game using Custom Views</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className="post-details">
                           <p>
@@ -1026,10 +1026,10 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blog/memetomiaapp">
+                          <Link to="blog/memetomiaapp">
                             <h2>Android Project</h2>
                             <span>ListFragments,Fragments,SDK</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className="post-details">
                           <p>
@@ -1047,12 +1047,12 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blog/stream4pro">
+                          <Link to="blog/stream4pro">
                             <h2>Android Project</h2>
                             <span>
                               Navigation Drawer, Fragment, Login Session
                             </span>
-                          </a>
+                          </Link>
                         </div>
                         <div className="post-details">
                           <p>Article about fragments and login session</p>
