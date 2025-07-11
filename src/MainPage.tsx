@@ -40,7 +40,7 @@ function MainPage() {
       $(this)
         .css("width", width)
         .empty()
-        .append('<i class="fa fa-circle">98%</i>');
+        .append('<i class="fa fa-circle"></i>');
     });
 
     const script = document.createElement("script");
