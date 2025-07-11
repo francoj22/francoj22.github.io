@@ -962,7 +962,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <Link to={"blogs/blog-research"}>
+                          <Link to={"blog/blog-research"}>
                             <h2>Research Methods</h2>
                             <span>Consciousness</span>
                           </Link>
@@ -984,7 +984,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/jorney-tracker">
+                          <a href="blog/jorney-tracker">
                             <h2>Android Project</h2>
                             <span>GPS</span>
                           </a>
@@ -1005,7 +1005,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/english-draughts">
+                          <a href="blog/english-draughts">
                             <h2>Android Project</h2>
                             <span>Game using Custom Views</span>
                           </a>
@@ -1026,7 +1026,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/memetomiaapp">
+                          <a href="blog/memetomiaapp">
                             <h2>Android Project</h2>
                             <span>ListFragments,Fragments,SDK</span>
                           </a>
@@ -1047,7 +1047,7 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div className="blog-details">
                         <div className="post-title" id="blog-post-1">
-                          <a href="blogs/stream4pro">
+                          <a href="blog/stream4pro">
                             <h2>Android Project</h2>
                             <span>
                               Navigation Drawer, Fragment, Login Session
