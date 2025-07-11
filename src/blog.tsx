@@ -15,7 +15,7 @@ function parseContent(post: { id: string; title: string; content: string; date: 
 
 export default function Blog() {
     const { id } = useParams();
-    console.log(id);
+    console.log(`query paremter: ${id}`);
     const post = POSTS.find((post) => post.id === id);
     const parsedContent = parseContent(post);
 

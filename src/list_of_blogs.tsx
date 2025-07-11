@@ -21,7 +21,7 @@ const POSTS = [
     date: "2015",
   },
   {
-    id: "english-draughts.html",
+    id: "english-draughts",
     title:
       "English Draughts. Making a fully working draughts application. MSCC- New and Emerging Technologies ",
     content: `
@@ -56,7 +56,7 @@ const POSTS = [
     date: "2015",
   },
   {
-    id: "jorney-tracker.html",
+    id: "jorney-tracker",
     title:
       "Journey-tracker. Building a GPS tracker that will analyse user speed. MSCC- New and Emerging Technologies",
     content: `
@@ -91,7 +91,7 @@ const POSTS = [
     date: "2015",
   },
   {
-    id: "memetomiaapp.html",
+    id: "memetomiaapp",
     title:
       "Android App. The company created for entertainment which deliver collections of memes  from different places",
     content: `
@@ -127,7 +127,7 @@ const POSTS = [
     date: "2013",
   },
   {
-    id: "stream4pro.html",
+    id: "stream4pro",
     title: "Navigation Drawer, Fragment, Login Session",
     content: `
         <a href="https://play.google.com/store/apps/details?id=com.qs.s4p&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">

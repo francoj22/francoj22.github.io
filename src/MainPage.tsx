@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./App.css";
 import profile from './assets/images/short-profile.png';
 import fideitySite from './assets/images/fidelity.png';
@@ -29,8 +30,8 @@ function MainPage() {
     script.src = '/assets/js/init.js'; // adjust path as needed
     script.async = true;
     script.onload = () => {
-      if (window.init) {
-        window.init(); // call the global jQuery function
+      if ((window as any).init) {
+        (window as any).init(); // call the global jQuery function
       }
     };
     document.body.appendChild(script);
