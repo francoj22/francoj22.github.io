@@ -34,12 +34,12 @@
         $("#sticky-nav").sticky({topSpacing:0});
         
         //Skills
-        // $(".determinate").each(function(){
-        //     var width = $(this).text();
-        //     $(this).css("width", width)
-        //         .empty()
-        //         .append('<i class="fa fa-circle"></i>');                
-        // });
+        $(".determinate").each(function(){
+            var width = $(this).text();
+            $(this).css("width", width)
+                .empty()
+                .append('<i class="fa fa-circle"></i>');                
+        });
         
     // Nav
         

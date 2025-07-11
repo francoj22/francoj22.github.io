@@ -1,42 +1,49 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./App.css";
-import profile from './assets/images/short-profile.png';
-import fideitySite from './assets/images/fidelity.png';
-import exadsSite from './assets/images/exads.png';
-import equifaxSite from './assets/images/equifax.png';
-import medicalSite from './assets/images/bluebridgetech.png';
-import liveirishradio from './assets/images/liveirishradio.jpg';
-import AIproject from './assets/images/project-ia.png';
-import stream1 from './assets/images/stream1.jpg';
-import mailboxSite from './assets/images/project-mailbox.png'
+import profile from "./assets/images/short-profile.png";
+import fideitySite from "./assets/images/fidelity.png";
+import exadsSite from "./assets/images/exads.png";
+import equifaxSite from "./assets/images/equifax.png";
+import medicalSite from "./assets/images/bluebridgetech.png";
+import liveirishradio from "./assets/images/liveirishradio.jpg";
+import AIproject from "./assets/images/project-ia.png";
+import stream1 from "./assets/images/stream1.jpg";
+import mailboxSite from "./assets/images/project-mailbox.png";
 import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
-import { useEffect } from 'react';
-import 'animate.css';
+import { useEffect } from "react";
+import "animate.css";
 
-import $ from 'jquery';
-
+import $ from "jquery";
 
 function MainPage() {
-
   useEffect(() => {
     // Load WOW.js from CDN
-    const scriptWow = document.createElement('script');
-    scriptWow.src = 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js';
+    const scriptWow = document.createElement("script");
+    scriptWow.src =
+      "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js";
     scriptWow.onload = () => {
       const WOW = (window as any).WOW;
       if (WOW) {
-        const wow = new WOW({live: false});
+        const wow = new WOW({ live: false });
         wow.init();
       }
     };
     document.head.appendChild(scriptWow);
-    $('#alertButton').on('click', () => {
-    alert('jQuery alert inside React!');
+    $("#alertButton").on("click", () => {
+      alert("jQuery alert inside React!");
     });
 
-     const script = document.createElement('script');
-    script.src = '/assets/js/init.js'; // adjust path as needed
+    $(".determinate").each(function () {
+      const width = $(this).text();
+      $(this)
+        .css("width", width)
+        .empty()
+        .append('<i class="fa fa-circle"></i>');
+    });
+
+    const script = document.createElement("script");
+    script.src = "/assets/js/init.js"; // adjust path as needed
     script.async = true;
     script.onload = () => {
       if ((window as any).init) {
@@ -51,7 +58,6 @@ function MainPage() {
       const initScript = document.querySelector('script[src*="init.js"]');
       if (initScript) document.body.removeChild(initScript);
     };
-
   }, []);
 
   return (
@@ -59,7 +65,6 @@ function MainPage() {
       <>
         {/* HEADER TOP */}
         <header id="header-top">
-          
           <div className="container">
             <div className="row">
               <div className="top-contact col m12 s12 right">
@@ -156,7 +161,7 @@ function MainPage() {
                     className="profile-pic wow fadeIn a1"
                     data-wow-delay="0.1s"
                   >
-                      <img src={profile} alt="" />
+                    <img src={profile} alt="" />
                   </div>
                 </div>
                 <div
@@ -238,96 +243,112 @@ function MainPage() {
 
                       <span>Python</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "60%",
                             minWidth: "60%",
                             maxWidth: "60%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">60%</i>
                         </div>
                       </div>
 
                       <span>Javascript/Typescript(Angular and ReactJS)</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "85%",
                             minWidth: "85%",
                             maxWidth: "85%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Java(SE and EE), Spring Boot, Hibernate</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "70%",
                             minWidth: "70%",
                             maxWidth: "70%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">70%</i>
                         </div>
                       </div>
 
                       <span>Mysql, MongoDB, NoSQL</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "90%",
                             minWidth: "90%",
                             maxWidth: "90%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">85%</i>
                         </div>
                       </div>
 
                       <span>Docker, Kubernetes, AWS, CI/CD</span>
                       <div className="progress">
-                        <div className="determinate" 
+                        <div
+                          className="determinate"
                           style={{
                             width: "60%",
                             minWidth: "60%",
                             maxWidth: "60%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">60%</i>
                         </div>
                       </div>
 
                       <span>Adobe Photoshop</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "50%",
                             minWidth: "50%",
                             maxWidth: "50%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">50%</i>
                         </div>
                       </div>
 
                       <span>HTML</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "90%",
                             minWidth: "90%",
                             maxWidth: "90%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">95%</i>
                         </div>
                       </div>
 
                       <span>CSS</span>
                       <div className="progress">
-                        <div className="determinate"
+                        <div
+                          className="determinate"
                           style={{
                             width: "90%",
                             minWidth: "90%",
                             maxWidth: "90%",
-                          }}>
+                          }}
+                        >
                           <i className="fa fa-circle">90%</i>
                         </div>
                       </div>
