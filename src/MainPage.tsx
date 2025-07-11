@@ -15,13 +15,22 @@ import { useEffect } from 'react';
 import 'animate.css';
 
 import $ from 'jquery';
-import { WOW } from 'wowjs';
+
 
 function MainPage() {
 
   useEffect(() => {
-    const wow = new WOW({live: false});
-    wow.init();
+    // Load WOW.js from CDN
+    const scriptWow = document.createElement('script');
+    scriptWow.src = 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js';
+    scriptWow.onload = () => {
+      const WOW = (window as any).WOW;
+      if (WOW) {
+        const wow = new WOW({live: false});
+        wow.init();
+      }
+    };
+    document.head.appendChild(scriptWow);
     $('#alertButton').on('click', () => {
     alert('jQuery alert inside React!');
     });
@@ -37,7 +46,10 @@ function MainPage() {
     document.body.appendChild(script);
 
     return () => {
-      document.body.removeChild(script);
+      const wowScript = document.querySelector('script[src*="wow.min.js"]');
+      if (wowScript) document.head.removeChild(wowScript);
+      const initScript = document.querySelector('script[src*="init.js"]');
+      if (initScript) document.body.removeChild(initScript);
     };
 
   }, []);
