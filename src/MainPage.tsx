@@ -15,12 +15,12 @@ import { useEffect } from 'react';
 import 'animate.css';
 
 import $ from 'jquery';
-import WOW from 'wowjs';
+import { WOW } from 'wowjs';
 
 function MainPage() {
 
   useEffect(() => {
-    const wow = new WOW.WOW();
+    const wow = new WOW({live: false});
     wow.init();
     $('#alertButton').on('click', () => {
     alert('jQuery alert inside React!');
