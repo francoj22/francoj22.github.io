@@ -11,25 +11,34 @@ import mailboxSite from './assets/images/project-mailbox.png'
 import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
 import { useEffect } from 'react';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-import WOW from 'wowjs';
 import 'animate.css';
 
 import $ from 'jquery';
-
+import WOW from 'wowjs';
 
 function MainPage() {
 
   useEffect(() => {
-    new WOW.WOW({ live: false }).init();
-    const script = document.createElement('script');
-    script.src = '/assets/js/init.js'; // your external JS file
-    document.body.appendChild(script);
-    //e.g 
-    $('#examplebutton').on('click', () => {
-      $('#exampletext').text('Updated by jQuery!');
+    const wow = new WOW.WOW();
+    wow.init();
+    $('#alertButton').on('click', () => {
+    alert('jQuery alert inside React!');
     });
+
+     const script = document.createElement('script');
+    script.src = '/assets/js/init.js'; // adjust path as needed
+    script.async = true;
+    script.onload = () => {
+      if (window.init) {
+        window.init(); // call the global jQuery function
+      }
+    };
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+
   }, []);
 
   return (
@@ -37,6 +46,7 @@ function MainPage() {
       <>
         {/* HEADER TOP */}
         <header id="header-top">
+          
           <div className="container">
             <div className="row">
               <div className="top-contact col m12 s12 right">
@@ -45,6 +55,7 @@ function MainPage() {
                   <a href="https://ie.linkedin.com/in/franco-gutierrez-4a073483">
                     Franco Gutierrez
                   </a>
+                  {/* <button id="test">Click Me</button> */}
                 </span>
               </div>
             </div>
