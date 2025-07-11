@@ -34,12 +34,13 @@ function MainPage() {
       alert("jQuery alert inside React!");
     });
 
-    $(".determinate").each(function () {
+    $(".progress .determinate").each(function () {
       const width = $(this).text();
+      console.log(`Rendering progress bar with width: ${width}`);
       $(this)
         .css("width", width)
         .empty()
-        .append('<i class="fa fa-circle"></i>');
+        .append('<i class="fa fa-circle">98%</i>');
     });
 
     const script = document.createElement("script");
@@ -47,17 +48,12 @@ function MainPage() {
     script.async = true;
     script.onload = () => {
       if ((window as any).init) {
-        (window as any).init(); // call the global jQuery function
+           alert("jQuery alert asc React!");
+
       }
     };
     document.body.appendChild(script);
 
-    return () => {
-      const wowScript = document.querySelector('script[src*="wow.min.js"]');
-      if (wowScript) document.head.removeChild(wowScript);
-      const initScript = document.querySelector('script[src*="init.js"]');
-      if (initScript) document.body.removeChild(initScript);
-    };
   }, []);
 
   return (
@@ -251,7 +247,7 @@ function MainPage() {
                             maxWidth: "60%",
                           }}
                         >
-                          <i className="fa fa-circle">60%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -265,7 +261,7 @@ function MainPage() {
                             maxWidth: "85%",
                           }}
                         >
-                          <i className="fa fa-circle">85%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -279,7 +275,7 @@ function MainPage() {
                             maxWidth: "70%",
                           }}
                         >
-                          <i className="fa fa-circle">70%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -293,7 +289,7 @@ function MainPage() {
                             maxWidth: "90%",
                           }}
                         >
-                          <i className="fa fa-circle">85%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -307,7 +303,7 @@ function MainPage() {
                             maxWidth: "60%",
                           }}
                         >
-                          <i className="fa fa-circle">60%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -321,7 +317,7 @@ function MainPage() {
                             maxWidth: "50%",
                           }}
                         >
-                          <i className="fa fa-circle">50%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -335,7 +331,7 @@ function MainPage() {
                             maxWidth: "90%",
                           }}
                         >
-                          <i className="fa fa-circle">95%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -349,7 +345,7 @@ function MainPage() {
                             maxWidth: "90%",
                           }}
                         >
-                          <i className="fa fa-circle">90%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -363,7 +359,7 @@ function MainPage() {
                             maxWidth: "40%",
                           }}
                         >
-                          <i className="fa fa-circle">40%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
                     </div>
@@ -387,7 +383,7 @@ function MainPage() {
                             maxWidth: "90%",
                           }}
                         >
-                          <i className="fa fa-circle">90%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -401,7 +397,7 @@ function MainPage() {
                             maxWidth: "95%",
                           }}
                         >
-                          <i className="fa fa-circle">95%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -410,12 +406,12 @@ function MainPage() {
                         <div
                           className="determinate"
                           style={{
-                            width: "90%",
-                            minWidth: "90%",
-                            maxWidth: "90%",
+                            width: "100%",
+                            minWidth: "100%",
+                            maxWidth: "100%",
                           }}
                         >
-                          <i className="fa fa-circle">90%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
 
@@ -424,12 +420,12 @@ function MainPage() {
                         <div
                           className="determinate"
                           style={{
-                            width: "85%",
-                            minWidth: "85%",
-                            maxWidth: "85%",
+                            width: "100%",
+                            minWidth: "100%",
+                            maxWidth: "100%",
                           }}
                         >
-                          <i className="fa fa-circle">85%</i>
+                          <i className="fa fa-circle"></i>
                         </div>
                       </div>
                     </div>
@@ -450,6 +446,23 @@ function MainPage() {
                 </h2>
               </div>
               <div id="cd-timeline" className="cd-container">
+                <div
+                  className="cd-timeline-block wow fadeIn a2"
+                  data-wow-delay="0.2s"
+                >
+                  <div className="cd-timeline-img"></div>
+                  <div className="cd-timeline-content col m5 s12 z-depth-1">
+                    <a href="https://www.sugifkms.com/">
+                      <h2>Software Engineer @sugi</h2>
+                    </a>
+                    <span>March 2024 to July 2025</span>
+                    <p>
+                      At Sugi has worked building SaaS application for the FinTech sector,
+                      bringing my expterience as a fullstack engineer with strong focus on ReactJS and Typescript.
+                     (www.sugifkms.com).
+                    </p>
+                  </div>
+                </div>
                 <div
                   className="cd-timeline-block wow fadeIn a2"
                   data-wow-delay="0.2s"
