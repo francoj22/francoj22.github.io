@@ -369,7 +369,7 @@ function MainPage() {
                       <i className="fa fa-calendar-o"></i>
                     </div>
                     <div
-                      className="skill-bar col m10 wow fadeIn a2"
+                      className="skill-bar"
                       data-wow-delay="0.2s"
                     >
                       <h3>Personal Skills </h3>
