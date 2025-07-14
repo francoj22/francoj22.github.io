@@ -457,8 +457,8 @@ function MainPage() {
                     </a>
                     <span>March 2024 to July 2025</span>
                     <p>
-                      At Sugi has worked building SaaS application for the FinTech sector,
-                      bringing my expterience as a fullstack engineer with strong focus on ReactJS and Typescript.
+                      At Sugi has worked building a cutting-edge SaaS application for the FinTech sector,
+                      bringing my expterience as a fullstack engineer with strong focus on the frontend side with ReactJS and Typescript.
                      (www.sugifkms.com).
                     </p>
                   </div>
