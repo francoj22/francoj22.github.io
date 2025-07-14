@@ -181,7 +181,7 @@ function MainPage() {
                     </p>
                     <div className="row">
                       <div className="col s12 m6">
-                        <h2 style={{ fontSize: "30px" }}></h2>
+                        <h2 style={{ fontSize: "30px" }}>Professional Skills</h2>
                         <ul>
                           <li>Full Stack Development</li>
                           <li>Cloud Services</li>
