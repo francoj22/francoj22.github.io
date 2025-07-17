@@ -193,7 +193,7 @@ function MainPage() {
                       <div className="col s12 m6">
                         <h2 style={{ fontSize: "30px" }}>Key Technologies</h2>
                         <ul>
-                          <li>React, Angular - Java, Node.js, Python</li>
+                          <li>ReactJS, Angular - Typescript, Java, Node.js, Python</li>
                           <li>AWS Cloud Services</li>
                           <li>Docker & Kubernetes</li>
                           <li>CI/CD</li>
@@ -459,7 +459,7 @@ function MainPage() {
                     <p>
                       At Sugi has worked building a cutting-edge SaaS application for the FinTech sector,
                       bringing my expterience as a fullstack engineer with strong focus on the frontend side with ReactJS and Typescript.
-                     (www.sugifkms.com).
+                      <span><a href="https://sugifkms.com">https://sugifkms.com</a></span>
                     </p>
                   </div>
                 </div>
@@ -478,6 +478,8 @@ function MainPage() {
                       the past years, working with various technologies and
                       components such as RESTful API, microservices, CI/CD, AWS,
                       web development, and User Acceptance Testing (UAT).
+                      <span><a href="https://www.fidelityinvestments.ie/">https://www.fidelityinvestments.ie/</a></span>
+                   
                     </p>
                   </div>
                 </div>
@@ -497,6 +499,7 @@ function MainPage() {
                       concepts like new css frameworks in the market, one of my
                       achievement have been developing new feature for the
                       current app and creating a new website (www.exads.com).
+                      <span><a href="https://www.exads.com/">https://www.exads.com/</a></span>
                     </p>
                   </div>
                 </div>
@@ -506,7 +509,7 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="http://www.equifax.com/personal">
+                    <a href="https://www.equifax.com/personal">
                       <h2>Software Engineer @Equifax.ie</h2>
                     </a>
                     <span>Sept 2017 to March 2020</span>
@@ -517,6 +520,7 @@ function MainPage() {
                       offered support as QA developer to develop end-to-end
                       tests and worked close with the backend developer in the
                       process of building RESTful APIs.
+                      <span><a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a></span>
                     </p>
                   </div>
                 </div>
@@ -536,6 +540,7 @@ function MainPage() {
                       personal project which integrates an app made for Android
                       devices where populates a list of music from a RESTful web
                       services.
+                      <span><a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a></span>
                     </p>
                   </div>
                 </div>
@@ -545,7 +550,7 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="http://bluebridgetechnologies.com">
+                    <a href="https://bluebridgetechnologies.com">
                       <h2>
                         Junior Software Engineer @BlueBridgeTechnologies.IE
                       </h2>
@@ -562,6 +567,7 @@ function MainPage() {
                       involved as the RESTful APIs in Java for delivering
                       information and set up the devices needed as a
                       microservices for our Client to assist customer needs
+                      <span><a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a></span>
                     </p>
                   </div>
                 </div>
@@ -571,7 +577,7 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="http://PRINTBOX.IE">
+                    <a href="https://PRINTBOX.IE">
                       <h2>WebDesigner and Mobile App Developer @PRINTBOX.IE</h2>
                     </a>
                     <span>April 2014 to August 2014 </span>
@@ -590,7 +596,7 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="http://square1.io/">
+                    <a href="https://square1.io/">
                       <h2>Android Developer @Square1.io</h2>
                     </a>
                     <span>March 2014 to April 2014 </span>
@@ -600,7 +606,9 @@ function MainPage() {
                       platforms that played videos where we panned the UI, and
                       defined as first step all the requirements functional and
                       no functional for starting the project.
+                      <span><a href="https://square1.io/">https://square1.io/</a></span>
                     </p>
+                    
                   </div>
                 </div>
 
@@ -623,7 +631,9 @@ function MainPage() {
                       gave the company new options for finding specific high
                       quality ores for mining. Click to the link below here to
                       watch the presentation{" "}
-                      <a href="http://sh.st/Q46Qn.">Link Here</a>
+                      {/* <span><a href="http://sh.st/Q46Qn">Demo</a></span> */}
+                      <br />
+                      <span><a href="https://www.sidor.com">https://www.sidor.com</a></span>
                     </p>
                   </div>
                 </div>
