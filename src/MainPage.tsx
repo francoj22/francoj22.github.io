@@ -174,7 +174,7 @@ function MainPage() {
                       Over the past several years, I've built a track record of
                       SaaS applications to successful products by effectively guiding them
                       to production environments, as a passionate Software
-                      Engineer with strong focus on SaaS applications, I am seeking new challenges in innovation, I welcome
+                      Engineer with strong focus on SaaS applications, I am seeking new challenges on innovation, I welcome
                       the opportunity to discuss how my expertise could benefit
                       your team. Please don't hesitate to reach out if my
                       profile aligns with your needs.
