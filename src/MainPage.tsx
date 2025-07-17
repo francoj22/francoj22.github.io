@@ -167,8 +167,7 @@ function MainPage() {
                   <div className="intro-content">
                     <h2>Hi, I'm Franco Gutierrez</h2>
                     <span>
-                      Software Engineer who previously worked at Fidelity
-                      Investments
+                      A Software Engineer, Cloud Enthusiast and Writer Avocade
                     </span>
                     <p>
                       Over the past several years, I've built a track record of
