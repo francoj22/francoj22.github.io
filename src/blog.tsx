@@ -38,11 +38,11 @@ export default function Blog() {
                       </div>
                       <div className="post-details">
                         <div className="author-name">
-                          <h1>Franco Gutierrez</h1>
-                          <h2>Date: {post.date}</h2>
+                          <span style={{color: "#000"}}>Franco Gutierrez</span>
+                          <span>Date: {post.date}</span>
                         </div>
 
-                        <div dangerouslySetInnerHTML={parsedContent}></div>
+                        <div style={{fontFamily: "sans-serif" }} dangerouslySetInnerHTML={parsedContent}></div>
                       </div>
                     </div>
                   </div>
