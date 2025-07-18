@@ -1,7 +1,7 @@
 import POSTS from "./list_of_blogs";
 import { useParams } from 'react-router-dom';
-
 import fullImg from './assets/images/full-img.jpg';
+import './blog.css';
 
 
 function parseContent(post: { id: string; title: string; content: string; date: string; } | undefined): { __html: string } {
@@ -38,11 +38,11 @@ export default function Blog() {
                       </div>
                       <div className="post-details">
                         <div className="author-name">
-                          <span style={{color: "#000"}}>Franco Gutierrez</span>
+                          <span>Franco Gutierrez</span>
                           <span>Date: {post.date}</span>
                         </div>
 
-                        <div style={{fontFamily: "sans-serif" }} dangerouslySetInnerHTML={parsedContent}></div>
+                        <div className="post-content" dangerouslySetInnerHTML={parsedContent}></div>
                       </div>
                     </div>
                   </div>
