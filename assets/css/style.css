@@ -673,6 +673,17 @@ nav .button-collapse i {
 
 }
 
+@media screen and (max-width: 768px) {
+  .author-name h1 {
+    font-size: 24px;
+    line-height: 16px;
+    color: #404041;
+    text-align: center;
+    justify-content: center;
+  }
+  
+}
+
 #blog .section-title {
   text-align: center;
 }
