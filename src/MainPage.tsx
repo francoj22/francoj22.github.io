@@ -498,7 +498,7 @@ function MainPage() {
                       concepts like new css frameworks in the market, one of my
                       achievement have been developing new feature for the
                       current app and creating a new website (www.exads.com).
-                      <span><a href="https://www.exads.com/">https://www.exads.com/</a></span>
+                       <span><a href="https://www.exads.com/">https://www.exads.com/</a></span>
                     </p>
                   </div>
                 </div>
@@ -519,7 +519,7 @@ function MainPage() {
                       offered support as QA developer to develop end-to-end
                       tests and worked close with the backend developer in the
                       process of building RESTful APIs.
-                      <span><a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a></span>
+                       <span><a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a></span>
                     </p>
                   </div>
                 </div>
@@ -539,7 +539,7 @@ function MainPage() {
                       personal project which integrates an app made for Android
                       devices where populates a list of music from a RESTful web
                       services.
-                      <span><a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a></span>
+                       <span><a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a></span>
                     </p>
                   </div>
                 </div>
@@ -566,7 +566,7 @@ function MainPage() {
                       involved as the RESTful APIs in Java for delivering
                       information and set up the devices needed as a
                       microservices for our Client to assist customer needs
-                      <span><a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a></span>
+                       <span><a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a></span>
                     </p>
                   </div>
                 </div>
@@ -605,7 +605,7 @@ function MainPage() {
                       platforms that played videos where we panned the UI, and
                       defined as first step all the requirements functional and
                       no functional for starting the project.
-                      <span><a href="https://square1.io/">https://square1.io/</a></span>
+                       <span><a href="https://square1.io/">https://square1.io/</a></span>
                     </p>
                     
                   </div>
@@ -632,7 +632,7 @@ function MainPage() {
                       watch the presentation{" "}
                       {/* <span><a href="http://sh.st/Q46Qn">Demo</a></span> */}
                       <br />
-                      <span><a href="https://www.sidor.com">https://www.sidor.com</a></span>
+                       <span><a href="https://www.sidor.com">https://www.sidor.com</a></span>
                     </p>
                   </div>
                 </div>
@@ -1012,7 +1012,7 @@ function MainPage() {
               <div className="row">
                 <div className="blog">
                   <div
-                    className="col  s12 blog-post wow fadeIn a2"
+                    className="col wow fadeIn a2"
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
@@ -1034,7 +1034,7 @@ function MainPage() {
                     </div>
                   </div>
                   <div
-                    className="col  s12 blog-post wow fadeIn a2"
+                    className="col s12 wow fadeIn a2"
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
@@ -1055,7 +1055,7 @@ function MainPage() {
                     </div>
                   </div>
                   <div
-                    className="col  s12 blog-post wow fadeIn a2"
+                    className="col s12 wow fadeIn a2"
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
@@ -1076,7 +1076,7 @@ function MainPage() {
                     </div>
                   </div>
                   <div
-                    className="col  s12 blog-post wow fadeIn a2"
+                    className="col s12 wow fadeIn a2"
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
@@ -1097,7 +1097,7 @@ function MainPage() {
                     </div>
                   </div>
                   <div
-                    className="col  s12 blog-post wow fadeIn a2"
+                    className="col s12 wow fadeIn a2"
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
