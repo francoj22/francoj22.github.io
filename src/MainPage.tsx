@@ -1010,7 +1010,7 @@ function MainPage() {
                 </h2>
               </div>
               <div className="row">
-                <div className="blog">
+                <div>
                   <div
                     className="col wow fadeIn a2"
                     data-wow-delay="0.2s"
