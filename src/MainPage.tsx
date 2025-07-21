@@ -1012,11 +1012,11 @@ function MainPage() {
               <div className="row">
                 <div>
                   <div
-                    className="col wow fadeIn a2"
+                    className="col s12 wow fadeIn a2"
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
-                      <div className="blog-details">
+                      <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to={"blog/blog-research"}>
                             <h2>Research Methods</h2>
@@ -1038,7 +1038,7 @@ function MainPage() {
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
-                      <div className="blog-details">
+                      <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to={"blog/jorney-tracker"}>
                             <h2>Andorid Project</h2>
@@ -1059,7 +1059,7 @@ function MainPage() {
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
-                      <div className="blog-details">
+                      <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to="blog/english-draughts">
                             <h2>Android Project</h2>
@@ -1080,7 +1080,7 @@ function MainPage() {
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
-                      <div className="blog-details">
+                      <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to="blog/memetomiaapp">
                             <h2>Android Project</h2>
@@ -1101,7 +1101,7 @@ function MainPage() {
                     data-wow-delay="0.2s"
                   >
                     <div className="thumbnail z-depth-1 animated">
-                      <div className="blog-details">
+                      <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to="blog/stream4pro">
                             <h2>Android Project</h2>
