@@ -452,7 +452,7 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.sugifkms.com/">
-                      <h2>Software Engineer @sugi</h2>
+                      <h2>Software Engineer @SUGI</h2>
                     </a>
                     <span>March 2024 to July 2025</span>
                     <p>
