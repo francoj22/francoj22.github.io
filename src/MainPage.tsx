@@ -13,7 +13,6 @@ import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
 import { useEffect } from "react";
 import "animate.css";
-
 import $ from "jquery";
 
 function MainPage() {
@@ -66,10 +65,9 @@ function MainPage() {
               <div className="top-contact col m12 s12 right">
                 <span>
                   <i className="fa fa-linkedin"></i>
-                  <a href="https://ie.linkedin.com/in/franco-gutierrez-4a073483">
+                  <a href="https://www.linkedin.com/in/francogu/">
                     Franco Gutierrez
                   </a>
-                  {/* <button id="test">Click Me</button> */}
                 </span>
               </div>
             </div>
@@ -576,7 +574,7 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="https://PRINTBOX.IE">
+                    <a href="https://mapcarta.com/N5384454767">
                       <h2>WebDesigner and Mobile App Developer @PRINTBOX.IE</h2>
                     </a>
                     <span>April 2014 to August 2014 </span>
@@ -584,8 +582,8 @@ function MainPage() {
                       In this position, I acquired valuable knowledge about
                       computer maintenance, testing software development on the
                       server side, detecting bugs and providing problem-solving
-                      such as, database development and RESTful APIs in PHP and
-                      Java.
+                      such as, database development and RESTful APIs in Wordpress,
+                      Spring Boot, and Cloud Services.
                     </p>
                   </div>
                 </div>
@@ -907,8 +905,7 @@ function MainPage() {
                       </a>
                       <span>2021</span>
                       <p>
-                        The program is a Master Class focused on Sprint Boot
-                        framework, Automation and Frontend Frameworks.
+                        The program is a Master Class focused on Sring Boot, Web Development, Docker, AWS Automation and Frontend Frameworks.
                       </p>
                     </div>
                   </div>
@@ -933,6 +930,19 @@ function MainPage() {
                     </p>
                   </div>
                 </div>
+
+                <div 
+                 className="cd-timeline-block wow fadeIn a2"
+                 data-wow-delay="0.4s">
+                			<div className="cd-timeline-img">
+                			</div> 
+                			<div className="cd-timeline-content col m5 s12 z-depth-1">
+                				<a href=""><h2>English Course@Dorset College Ireland</h2></a>
+                				<span>2014</span>
+                				<p>Through this course, I developed a foundational understanding of the English language, which has been instrumental in enhancing my communication skills. I am grateful to Dorset College for providing such a valuable learning experience.</p>
+                			</div> 
+                </div>
+
 
                 <div
                   className="cd-timeline-block wow fadeIn a2"
@@ -967,31 +977,12 @@ function MainPage() {
                       <h2>Cisco Certified Network Associate @CCNA</h2>
                     </a>
                     <span>2013</span>
-                    <p>
-                      Although i am not implemented the full knowledge of the
-                      main className that i am still have the main idea and
-                      programming by prompt, using packet tracer as software.
-                      Also through during this course I got networking tech
-                      knowledge and techniques used for the development of
-                      network programms as security that shoube take care before
-                      put a product on production
-                    </p>
+                    <p>During this course, I gained knowledge of networking techniques essential for developing 
+                       network programs, with a focus on security measures to implement before deploying a product to production. 
+                       I learned about Networking Fundamentals, IP Services, Security Fundamentals, and Automation.</p>
                   </div>
                 </div>
 
-                <div
-                  className="cd-timeline-block wow fadeIn a4"
-                  data-wow-delay="0.4s"
-                >
-                  <div className="cd-timeline-img"></div>
-                  <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="">
-                      <h2>English Course@Dorset College Ireland</h2>
-                    </a>
-                    <span>2014</span>
-                    <p>English course in Ireland</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1041,7 +1032,7 @@ function MainPage() {
                       <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to={"blog/jorney-tracker"}>
-                            <h2>Andorid Project</h2>
+                            <h2>Android Project</h2>
                             <span>GPS</span>
                           </Link>
                         </div>
