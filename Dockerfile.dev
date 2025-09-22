@@ -1,0 +1,28 @@
+# Use Node.js official image as base
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json (if available)
+COPY package*.json ./
+
+# Install all dependencies (including devDependencies for development)
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Expose port 5173 (Vite default development port)
+EXPOSE 5173
+
+# Set environment to development
+ENV NODE_ENV=development
+
+# Enable polling for file changes (useful for Docker volumes)
+ENV CHOKIDAR_USEPOLLING=true
+
+# Start Vite development server
+# --host 0.0.0.0 allows external connections (required for Docker)
+# --port 5173 explicitly sets the port
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]

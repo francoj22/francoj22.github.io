@@ -26,6 +26,14 @@ export default defineConfig({
           src: "src/assets/js/jquery.sticky.js",
           dest: "assets/js",
         },
+        {
+          src: "src/assets/js/modernizr.js",
+          dest: "assets/js",
+        },
+        {
+          src: "src/assets/js/jquery.fancybox.pack.js",
+          dest: "assets/js",
+        },
       ],
     }),
   ],
@@ -40,6 +48,8 @@ export default defineConfig({
     "**/js/validator.min.js",
     "**/js/init.js",
     "**/js/jquery.sticky.js",
+    "**/js/jquery.fancybox.pack.js",
+    "**/js/modernizr.js",
   ],
   base: "./",
   build: {
