@@ -29,9 +29,6 @@ function MainPage() {
       }
     };
     document.head.appendChild(scriptWow);
-    $("#alertButton").on("click", () => {
-      alert("jQuery alert inside React!");
-    });
 
     $(".progress .determinate").each(function () {
       const width = $(this).text();
@@ -45,12 +42,6 @@ function MainPage() {
     const script = document.createElement("script");
     script.src = "/assets/js/init.js"; // adjust path as needed
     script.async = true;
-    script.onload = () => {
-      if ((window as any).init) {
-           alert("jQuery alert asc React!");
-
-      }
-    };
     document.body.appendChild(script);
 
   }, []);
