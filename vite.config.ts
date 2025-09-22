@@ -1,24 +1,51 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), viteStaticCopy({
-    targets: [
-      {
-        src: "src/assets/js/jquery.nav.js",
-        dest: "assets/js",
-      },
-    ],
-  }),],
-  assetsInclude: ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
-  base: './',
-  build: {    
-     outDir: 'dist'
+  plugins: [
+    react(),
+    tailwindcss(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: "src/assets/js/jquery.nav.js",
+          dest: "assets/js",
+        },
+        {
+          src: "src/assets/js/validator.min.js",
+          dest: "assets/js",
+        },
+        {
+          src: "src/assets/js/init.js",
+          dest: "assets/js",
+        },
+        {
+          src: "src/assets/js/jquery.sticky.js",
+          dest: "assets/js",
+        },
+      ],
+    }),
+  ],
+  assetsInclude: [
+    "**/*.png",
+    "**/images/png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.gif",
+    "**/*.svg",
+    "**/js/jquery.nav.js",
+    "**/js/validator.min.js",
+    "**/js/init.js",
+    "**/js/jquery.sticky.js",
+  ],
+  base: "./",
+  build: {
+    outDir: "dist",
   },
   optimizeDeps: {
-    include: ['wowjs']
-  }
-})
+    include: ["wowjs"],
+  },
+});
