@@ -43,7 +43,6 @@ function MainPage() {
     script.src = "/assets/js/init.js"; // adjust path as needed
     script.async = true;
     document.body.appendChild(script);
-
   }, []);
 
   return (
@@ -156,20 +155,23 @@ function MainPage() {
                   <div className="intro-content">
                     <h2>Hi, I'm Franco Gutierrez</h2>
                     <span>
-                      A Software Engineer, Cloud Enthusiast and Writer Avocate
+                      A Software Engineer, Cloud Enthusiast and Writing Avocate
                     </span>
                     <p>
-                      Over the past several years, I've built a track record of
-                      SaaS applications to successful products by effectively guiding them
-                      to production environments, as a passionate Software
-                      Engineer with strong focus on SaaS applications, I am seeking new challenges on innovation, I welcome
-                      the opportunity to discuss how my expertise could benefit
-                      your team. Please don't hesitate to reach out if my
+                      Over the past several years, I've built a track record of delivering 
+                      SaaS applications as successful products by effectively 
+                      guiding them to production environments. As a passionate 
+                      Software Engineer with a strong focus on SaaS applications, 
+                      I am seeking new challenges in innovation. I welcome the 
+                      opportunity to discuss how my expertise could benefit 
+                      your team. Please don't hesitate to reach out if my 
                       profile aligns with your needs.
                     </p>
                     <div className="row">
                       <div className="col s12 m6">
-                        <h2 style={{ fontSize: "30px" }}>Professional Skills</h2>
+                        <h2 style={{ fontSize: "30px" }}>
+                          Professional Skills
+                        </h2>
                         <ul>
                           <li>Full Stack Development</li>
                           <li>Cloud Services</li>
@@ -181,7 +183,9 @@ function MainPage() {
                       <div className="col s12 m6">
                         <h2 style={{ fontSize: "30px" }}>Key Technologies</h2>
                         <ul>
-                          <li>ReactJS, Angular - Typescript, Java, Node.js, Python</li>
+                          <li>
+                            ReactJS, Angular - Typescript, Java, Node.js, Python
+                          </li>
                           <li>AWS Cloud Services</li>
                           <li>Docker & Kubernetes</li>
                           <li>CI/CD</li>
@@ -356,10 +360,7 @@ function MainPage() {
                     <div className="col m2 skill-icon">
                       <i className="fa fa-calendar-o"></i>
                     </div>
-                    <div
-                      className="skill-bar"
-                      data-wow-delay="0.2s"
-                    >
+                    <div className="skill-bar" data-wow-delay="0.2s">
                       <h3>Personal Skills </h3>
                       <span>Communication, Planning</span>
                       <div className="progress">
@@ -441,14 +442,21 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.sugifkms.com/">
-                      <h2>Software Engineer @SUGI</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Sugi Fkms Ltd</span>
+                      </h2>
                     </a>
                     <span>March 2024 to July 2025</span>
                     <p>
-                      At Sugi I worked building a cutting-edge SaaS application for the FinTech sector, 
-                      bringing my experience as a fullstack engineer with strong focus on Spring Boot, Node.js and ReactJS
+                      At Sugi I worked building a cutting-edge SaaS application
+                      for the FinTech sector, bringing my experience as a
+                      full-stack engineer with strong focus on Spring Boot,
+                      Node.js and ReactJS.
                       <br></br>
-                      <span><a href="https://sugifkms.com">https://sugifkms.com</a></span>
+                      <span>
+                        <a href="https://sugifkms.com">https://sugifkms.com</a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -459,7 +467,14 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.fidelityinvestments.ie/">
-                      <h2>Senior Software Engineer @ Fidelity Investments</h2>
+                      <h2 style={{ lineHeight: "20px" }}>
+                        Senior Software Engineer{" "}
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @Fidelity Investments
+                        </span>
+                      </h2>
                     </a>
                     <span>April 2022 to December 2024</span>
                     <p>
@@ -468,8 +483,11 @@ function MainPage() {
                       components such as RESTful API, microservices, CI/CD, AWS,
                       web development, and User Acceptance Testing (UAT).
                       <br></br>
-                      <span><a href="https://www.fidelityinvestments.ie/">https://www.fidelityinvestments.ie/</a></span>
-                   
+                      <span>
+                        <a href="https://www.fidelityinvestments.ie/">
+                          https://www.fidelityinvestments.ie/
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -480,17 +498,24 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.exads.com/">
-                      <h2>Frontend Developer @Exads.com</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Frontend Developer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Exads.com</span>
+                      </h2>
                     </a>
                     <span>Oct 2020 to March 2022</span>
                     <p>
-                      During this role, I gained experience developing an app 
-                      in Angular and React. I also implemented ideas and new 
-                      concepts like new CSS frameworks in the market. One of my 
-                      achievements was developing new features for the 
-                      current app and creating a new website (www.exads.com).
+                      During this role, I gained experience developing an app in
+                      Angular and React. I also implemented ideas and new
+                      concepts like new CSS frameworks in the market. One of my
+                      achievements was developing new features for the current
+                      app and creating a new website (www.exads.com).
                       <br></br>
-                      <span><a href="https://www.exads.com/">https://www.exads.com/</a></span>
+                      <span>
+                        <a href="https://www.exads.com/">
+                          https://www.exads.com/
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -501,18 +526,25 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.equifax.com/personal">
-                      <h2>Software Engineer @Equifax.ie</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Equifax.ie</span>
+                      </h2>
                     </a>
                     <span>Sept 2017 to March 2020</span>
                     <p>
-                      In this role, I gained experience performing tasks such as the 
-                      design, implementation and maintenance of product 
-                      modules and systems delivered by Equifax. I also 
-                      offered support as a QA developer to develop end-to-end 
-                      tests and worked closely with backend developers in the 
-                      process of building RESTful APIs, and CI/CD pipelines.
+                      In this role, I gained experience performing tasks such as
+                      the design, implementation and maintenance of product
+                      modules and systems delivered by Equifax. I also offered
+                      support as a QA developer to develop end-to-end tests and
+                      worked closely with backend developers in the process of
+                      building RESTful APIs, and CI/CD pipelines.
                       <br></br>
-                      <span><a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a></span>
+                      <span>
+                        <a href="https://www.equifax.com/personal">
+                          https://www.equifax.com/personal
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -523,18 +555,28 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://francoj22.github.io/liveirishradio/">
-                      <h2 style={{ lineHeight: '20px' }}>Software Developer </h2>
-                      <h2><span style={{ color: 'grey' }}>@LiveIrishRadio.ie</span></h2>
+                      <h2 style={{ lineHeight: "20px" }}>
+                        Software Developer{" "}
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @LiveIrishRadio.ie
+                        </span>
+                      </h2>
                     </a>
                     <span>Feb 2015 to April 2017</span>
                     <p>
-                      In this role, I gained experience developing a website using 
-                      Material Design, PHP, AngularJS, and MySQL. It is a 
-                      personal project which integrates an app made for Android 
-                      devices that populates a list of music from RESTful web 
+                      In this role, I gained experience developing a website
+                      using Material Design, PHP, AngularJS, and MySQL. It is a
+                      personal project which integrates an app made for Android
+                      devices that populates a list of music from RESTful web
                       services.
                       <br></br>
-                      <span><a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a></span>
+                      <span>
+                        <a href="https://francoj22.github.io/liveirishradio/">
+                          https://francoj22.github.io/liveirishradio/
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -545,25 +587,31 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://bluebridgetechnologies.com">
-                      <h2 style={{ lineHeight: '20px' }}>
-                        Software Engineer 
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @BlueBridgeTechnologies
+                        </span>
                       </h2>
-                      <h2><span style={{ color: 'grey' }}>@BlueBridgeTechnologies</span></h2>
                     </a>
                     <span>Oct 2016 to April 2017 </span>
                     <p>
-                      I worked as a team player by delivering smart solutions 
-                      for the development of an Android Medical App. I helped 
-                      deliver high quality code which involved more than 
-                      200,000 lines of code for a well-known brand in Europe. We 
-                      used the latest technologies on the market such as a 
-                      distributed version control system (Bitbucket) and agile 
-                      methodologies (Scrum, Kanban). During the project, I was 
-                      involved in developing RESTful APIs in Java for delivering 
-                      information and setting up the devices needed as 
+                      I worked as a team player by delivering smart solutions
+                      for the development of an Android Medical App. I helped
+                      deliver high quality code which involved more than 200,000
+                      lines of code for a well-known brand in Europe. We used
+                      the latest technologies on the market such as a
+                      distributed version control system (Bitbucket) and agile
+                      methodologies (Scrum, Kanban). During the project, I was
+                      involved in developing RESTful APIs in Java for delivering
+                      information and setting up the devices needed as
                       microservices for our client to assist customer needs.
                       <br></br>
-                      <span><a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a></span>
+                      <span>
+                        <a href="https://bluebridgetechnologies.com">
+                          http://bluebridgetechnologies.com
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -574,15 +622,20 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://mapcarta.com/N5384454767">
-                      <h2>WebDesigner and Mobile App Developer @PRINTBOX.IE</h2>
+                      <h2 style={{ lineHeight: "20px" }}>
+                        WebDesigner and Mobile App Developer
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@PRINTBOX</span>
+                      </h2>
                     </a>
                     <span>April 2014 to August 2014 </span>
                     <p>
-                      In this position, I acquired valuable knowledge about 
-                      computer maintenance, testing software development on the 
-                      server side, detecting bugs and providing problem-solving 
-                      solutions such as database development and RESTful APIs in WordPress, 
-                      Spring Boot, and Cloud Services.
+                      In this position, I acquired valuable knowledge about
+                      computer maintenance, testing software development on the
+                      server side, detecting bugs and providing problem-solving
+                      solutions such as database development and RESTful APIs in
+                      WordPress, Spring Boot, and Cloud Services.
                     </p>
                   </div>
                 </div>
@@ -593,18 +646,23 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://square1.io/">
-                      <h2>Android Developer @Square1.io</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Mobile Developer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Square1.io</span>
+                      </h2>
                     </a>
                     <span>March 2014 to April 2014 </span>
                     <p>
-                      In this role I was working as part of a team and was 
-                      responsible for developing an application for Android 
-                      platforms that played videos where we planned the UI and 
-                      defined as the first step all the functional and 
+                      In this role I was working as part of a team and was
+                      responsible for developing an application for Android
+                      platforms that played videos where we planned the UI and
+                      defined as the first step all the functional and
                       non-functional requirements for starting the project.
-                      <span><a href="https://square1.io/">https://square1.io/</a></span>
+                      <br></br>
+                      <span>
+                        <a href="https://square1.io/">https://square1.io/</a>
+                      </span>
                     </p>
-                    
                   </div>
                 </div>
 
@@ -615,19 +673,26 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="http://sidor.com">
-                      <h2>Software Engineer @SIDOR C.A</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@SIDOR C.A</span>
+                      </h2>
                     </a>
                     <span>April 2012 and April 2013 / September 2012 </span>
                     <p>
-                      I worked on a project which involved developing an 
-                      intelligent system which was required to improve the 
-                      process for SIDOR's methods in mineral exploration. The methods 
-                      provided them options for improvement in the suitability of 
-                      finding the different variables. The result of the project 
-                      gave the company new options for finding specific high 
-                      quality ores for mining.
+                      I worked on a project which involved developing an
+                      intelligent system which was required to improve the
+                      process for SIDOR's methods in mineral exploration. The
+                      methods provided them options for improvement in the
+                      suitability of finding the different variables. The result
+                      of the project gave the company new options for finding
+                      specific high quality ores for mining.
                       <br />
-                      <span><a href="https://www.sidor.com">https://www.sidor.com</a></span>
+                      <span>
+                        <a href="https://www.sidor.com">
+                          https://www.sidor.com
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -694,7 +759,7 @@ function MainPage() {
                                 website on React
                               </h2>
                               <p>
-                                Technologies used:  Bootstrap, Jasmine, Karma,
+                                Technologies used: Bootstrap, Jasmine, Karma,
                                 Material-UI(MUI), TailwindCSS
                               </p>
                             </div>
@@ -902,7 +967,9 @@ function MainPage() {
                       </a>
                       <span>2021</span>
                       <p>
-                        The program is a Java Master Class focused on Spring Boot, Hibernate, CI/CD, Web Development, Docker, AWS Automation and Frontend Frameworks.
+                        The program is a Java Master Class focused on Spring
+                        Boot, Hibernate, CI/CD, Web Development, Docker, AWS
+                        Automation and Frontend Frameworks.
                       </p>
                     </div>
                   </div>
@@ -919,27 +986,34 @@ function MainPage() {
                     </a>
                     <span>2016</span>
                     <p>
-                      The program of my Master's degree handles the standard study of 
-                      algorithms, programming in Java SE and EE, ORM, and New 
-                      Techniques such as Text Processing, Mobile App Development, and 
-                      Cloud computing. It provides the expertise to handle any kind 
-                      of area in IT development.
+                      The program of my Master's degree handles the standard
+                      study of algorithms, programming in Java SE and EE, ORM,
+                      and New Techniques such as Text Processing, Mobile App
+                      Development, and Cloud computing. It provides the
+                      expertise to handle any kind of area in IT development.
                     </p>
                   </div>
                 </div>
 
-                <div 
-                 className="cd-timeline-block wow fadeIn a2"
-                 data-wow-delay="0.4s">
-                			<div className="cd-timeline-img">
-                			</div> 
-                			<div className="cd-timeline-content col m5 s12 z-depth-1">
-                				<a href=""><h2>English Course@Dorset College Ireland</h2></a>
-                				<span>2014</span>
-                				<p>Through this course, I developed a foundational understanding of the English language, which has been instrumental in enhancing my communication skills. I am grateful to Dorset College for providing such a valuable learning experience.</p>
-                			</div> 
+                <div
+                  className="cd-timeline-block wow fadeIn a2"
+                  data-wow-delay="0.4s"
+                >
+                  <div className="cd-timeline-img"></div>
+                  <div className="cd-timeline-content col m5 s12 z-depth-1">
+                    <a href="">
+                      <h2>English Course@Dorset College Ireland</h2>
+                    </a>
+                    <span>2014</span>
+                    <p>
+                      Through this course, I developed a foundational
+                      understanding of the English language, which has been
+                      instrumental in enhancing my communication skills. I am
+                      grateful to Dorset College for providing such a valuable
+                      learning experience.
+                    </p>
+                  </div>
                 </div>
-
 
                 <div
                   className="cd-timeline-block wow fadeIn a2"
@@ -948,19 +1022,20 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="">
-                      <h2 style={{ lineHeight: '30px' }}>
+                      <h2 style={{ lineHeight: "30px" }}>
                         BSc in Computer Science
                       </h2>
-                       <h2 style={{lineHeight: '30px'}}>@Universidad Catolica Andres
-                       Bello(UCAB)</h2>
+                      <h2 style={{ lineHeight: "30px" }}>
+                        @Universidad Catolica Andres Bello(UCAB)
+                      </h2>
                     </a>
                     <span>2013</span>
                     <p>
-                      The program at my University handles the standard study of 
-                      algorithms, programming in Java and Development of Databases. 
-                      Through this I gained knowledge in building SaaS 
-                      applications with Java, which involves the study of 
-                      business logic, choosing the best methodologies and 
+                      The program at my University handles the standard study of
+                      algorithms, programming in Java and Development of
+                      Databases. Through this I gained knowledge in building
+                      SaaS applications with Java, which involves the study of
+                      business logic, choosing the best methodologies and
                       working as a team to deliver successful products.
                     </p>
                   </div>
@@ -972,15 +1047,21 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="">
-                      <h2 style={{lineHeight: '30px'}}>Cisco Certified Network Associate @CCNA</h2>
+                      <h2 style={{ lineHeight: "30px" }}>
+                        Cisco Certified Network Associate @CCNA
+                      </h2>
                     </a>
                     <span>2013</span>
-                    <p>During this course, I gained knowledge of networking techniques essential for developing 
-                       network programs, with a focus on security measures to implement before deploying a product to production. 
-                       I learned about Networking Fundamentals, IP Services, Security Fundamentals, and Automation.</p>
+                    <p>
+                      During this course, I gained knowledge of networking
+                      techniques essential for developing network programs, with
+                      a focus on security measures to implement before deploying
+                      a product to production. I learned about Networking
+                      Fundamentals, IP Services, Security Fundamentals, and
+                      Automation.
+                    </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -1000,10 +1081,7 @@ function MainPage() {
               </div>
               <div className="row">
                 <div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1022,10 +1100,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1043,10 +1118,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1064,10 +1136,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1085,10 +1154,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
