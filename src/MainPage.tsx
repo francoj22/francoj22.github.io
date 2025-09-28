@@ -83,7 +83,7 @@ function MainPage() {
                         <a href="#works">Works</a>
                       </li>
                       <li>
-                        <a href="#portfolio">Portolio</a>
+                        <a href="#portfolio">Portfolio</a>
                       </li>
                       <li>
                         <a href="#education">Education</a>
@@ -111,7 +111,7 @@ function MainPage() {
                         <a href="#works">Works</a>
                       </li>
                       <li>
-                        <a href="#portfolio">Portolio</a>
+                        <a href="#portfolio">Portfolio</a>
                       </li>
                       <li>
                         <a href="#education">Education</a>
@@ -156,7 +156,7 @@ function MainPage() {
                   <div className="intro-content">
                     <h2>Hi, I'm Franco Gutierrez</h2>
                     <span>
-                      A Software Engineer, Cloud Enthusiast and Writer Avocade
+                      A Software Engineer, Cloud Enthusiast and Writer Avocate
                     </span>
                     <p>
                       Over the past several years, I've built a track record of
@@ -445,8 +445,9 @@ function MainPage() {
                     </a>
                     <span>March 2024 to July 2025</span>
                     <p>
-                      At Sugi has worked building a cutting-edge SaaS application for the FinTech sector,
-                      bringing my expterience as a fullstack engineer with strong focus on the frontend side with ReactJS and Typescript.
+                      At Sugi I worked building a cutting-edge SaaS application for the FinTech sector, 
+                      bringing my experience as a fullstack engineer with strong focus on Spring Boot, Node.js and ReactJS
+                      <br></br>
                       <span><a href="https://sugifkms.com">https://sugifkms.com</a></span>
                     </p>
                   </div>
@@ -466,6 +467,7 @@ function MainPage() {
                       the past years, working with various technologies and
                       components such as RESTful API, microservices, CI/CD, AWS,
                       web development, and User Acceptance Testing (UAT).
+                      <br></br>
                       <span><a href="https://www.fidelityinvestments.ie/">https://www.fidelityinvestments.ie/</a></span>
                    
                     </p>
@@ -482,12 +484,13 @@ function MainPage() {
                     </a>
                     <span>Oct 2020 to March 2022</span>
                     <p>
-                      During this role, I have got experience developing an app
-                      on Angular and React, I also have implement ideas and new
-                      concepts like new css frameworks in the market, one of my
-                      achievement have been developing new feature for the
+                      During this role, I gained experience developing an app 
+                      in Angular and React. I also implemented ideas and new 
+                      concepts like new CSS frameworks in the market. One of my 
+                      achievements was developing new features for the 
                       current app and creating a new website (www.exads.com).
-                       <span><a href="https://www.exads.com/">https://www.exads.com/</a></span>
+                      <br></br>
+                      <span><a href="https://www.exads.com/">https://www.exads.com/</a></span>
                     </p>
                   </div>
                 </div>
@@ -502,13 +505,14 @@ function MainPage() {
                     </a>
                     <span>Sept 2017 to March 2020</span>
                     <p>
-                      In this role, I got experience by performing such as the
-                      design, implementation as the maintenance of product
-                      modules and systems delivered by Equifax and I also
-                      offered support as QA developer to develop end-to-end
-                      tests and worked close with the backend developer in the
-                      process of building RESTful APIs.
-                       <span><a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a></span>
+                      In this role, I gained experience performing tasks such as the 
+                      design, implementation and maintenance of product 
+                      modules and systems delivered by Equifax. I also 
+                      offered support as a QA developer to develop end-to-end 
+                      tests and worked closely with backend developers in the 
+                      process of building RESTful APIs, and CI/CD pipelines.
+                      <br></br>
+                      <span><a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a></span>
                     </p>
                   </div>
                 </div>
@@ -519,16 +523,18 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://francoj22.github.io/liveirishradio/">
-                      <h2>Software Developer @LiveIrishRadio.ie</h2>
+                      <h2 style={{ lineHeight: '20px' }}>Software Developer </h2>
+                      <h2><span style={{ color: 'grey' }}>@LiveIrishRadio.ie</span></h2>
                     </a>
                     <span>Feb 2015 to April 2017</span>
                     <p>
-                      In this role, I got experience doing a website using
-                      Material Design, PHP, Angular JS, and MySQL., It is
-                      personal project which integrates an app made for Android
-                      devices where populates a list of music from a RESTful web
+                      In this role, I gained experience developing a website using 
+                      Material Design, PHP, AngularJS, and MySQL. It is a 
+                      personal project which integrates an app made for Android 
+                      devices that populates a list of music from RESTful web 
                       services.
-                       <span><a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a></span>
+                      <br></br>
+                      <span><a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a></span>
                     </p>
                   </div>
                 </div>
@@ -539,23 +545,25 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://bluebridgetechnologies.com">
-                      <h2>
-                        Junior Software Engineer @BlueBridgeTechnologies.IE
+                      <h2 style={{ lineHeight: '20px' }}>
+                        Software Engineer 
                       </h2>
+                      <h2><span style={{ color: 'grey' }}>@BlueBridgeTechnologies</span></h2>
                     </a>
                     <span>Oct 2016 to April 2017 </span>
                     <p>
-                      I worked as a team player by delivering smart solutions
-                      for the development of an Android Medical App. I helped
-                      deliver high quality of code which involves more than
-                      200,000 lines of code for a high known brand in Europe. We
-                      used the latest technologies on the market such as a
-                      distributed version control system (Bitbucket) and agile
-                      methodologies (Scrum, Kanban). During the project, I was
-                      involved as the RESTful APIs in Java for delivering
-                      information and set up the devices needed as a
-                      microservices for our Client to assist customer needs
-                       <span><a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a></span>
+                      I worked as a team player by delivering smart solutions 
+                      for the development of an Android Medical App. I helped 
+                      deliver high quality code which involved more than 
+                      200,000 lines of code for a well-known brand in Europe. We 
+                      used the latest technologies on the market such as a 
+                      distributed version control system (Bitbucket) and agile 
+                      methodologies (Scrum, Kanban). During the project, I was 
+                      involved in developing RESTful APIs in Java for delivering 
+                      information and setting up the devices needed as 
+                      microservices for our client to assist customer needs.
+                      <br></br>
+                      <span><a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a></span>
                     </p>
                   </div>
                 </div>
@@ -570,10 +578,10 @@ function MainPage() {
                     </a>
                     <span>April 2014 to August 2014 </span>
                     <p>
-                      In this position, I acquired valuable knowledge about
-                      computer maintenance, testing software development on the
-                      server side, detecting bugs and providing problem-solving
-                      such as, database development and RESTful APIs in Wordpress,
+                      In this position, I acquired valuable knowledge about 
+                      computer maintenance, testing software development on the 
+                      server side, detecting bugs and providing problem-solving 
+                      solutions such as database development and RESTful APIs in WordPress, 
                       Spring Boot, and Cloud Services.
                     </p>
                   </div>
@@ -589,12 +597,12 @@ function MainPage() {
                     </a>
                     <span>March 2014 to April 2014 </span>
                     <p>
-                      In this role I was working as part of a team and was
-                      responsible for developing an application for Android
-                      platforms that played videos where we panned the UI, and
-                      defined as first step all the requirements functional and
-                      no functional for starting the project.
-                       <span><a href="https://square1.io/">https://square1.io/</a></span>
+                      In this role I was working as part of a team and was 
+                      responsible for developing an application for Android 
+                      platforms that played videos where we planned the UI and 
+                      defined as the first step all the functional and 
+                      non-functional requirements for starting the project.
+                      <span><a href="https://square1.io/">https://square1.io/</a></span>
                     </p>
                     
                   </div>
@@ -611,17 +619,15 @@ function MainPage() {
                     </a>
                     <span>April 2012 and April 2013 / September 2012 </span>
                     <p>
-                      I worked on a project which involved developing an
-                      intelligent system which was required to improve the
-                      process for SIDORs methods in mineral seeking. The methods
-                      provided them options for improvement in suitability of
-                      finding the different variables. The result of the project
-                      gave the company new options for finding specific high
-                      quality ores for mining. Click to the link below here to
-                      watch the presentation{" "}
-                      {/* <span><a href="http://sh.st/Q46Qn">Demo</a></span> */}
+                      I worked on a project which involved developing an 
+                      intelligent system which was required to improve the 
+                      process for SIDOR's methods in mineral exploration. The methods 
+                      provided them options for improvement in the suitability of 
+                      finding the different variables. The result of the project 
+                      gave the company new options for finding specific high 
+                      quality ores for mining.
                       <br />
-                       <span><a href="https://www.sidor.com">https://www.sidor.com</a></span>
+                      <span><a href="https://www.sidor.com">https://www.sidor.com</a></span>
                     </p>
                   </div>
                 </div>
@@ -678,18 +684,18 @@ function MainPage() {
                           height="500px"
                           width="500px"
                           src={exadsSite}
-                          alt="ExdasSite"
+                          alt="ExadsSite"
                         />
                         <figcaption>
                           <div className="caption-content">
                             <div className="single_image">
                               <h2>
-                                Platform developed on Angular, and the offical
+                                Platform developed on Angular, and the official
                                 website on React
                               </h2>
                               <p>
-                                Using as technique Bootstrap, Jasmine, Karma,
-                                MaterialUI, TailwindCSS
+                                Technologies used:  Bootstrap, Jasmine, Karma,
+                                Material-UI(MUI), TailwindCSS
                               </p>
                             </div>
                           </div>
@@ -708,7 +714,7 @@ function MainPage() {
                           <div className="caption-content">
                             <div className="single_image">
                               <h2>
-                                Contribute on the Complice Center and I-9
+                                Contribute on the Compliance Center and I-9
                                 platform developed on Angular
                               </h2>
                               <p>
@@ -753,7 +759,7 @@ function MainPage() {
                           <div className="caption-content">
                             <div className="single_image">
                               <h2>
-                                Web Design, Mobile App Developer, Backed
+                                Web Design, Mobile App Developer, Backend
                                 Developer
                               </h2>
                               <p>Using Java and Web Services RESTful API</p>
@@ -837,7 +843,7 @@ function MainPage() {
                               <p>
                                 Part of the software developer team. Providing
                                 base component of the form and the queries to
-                                the data base.
+                                the database.
                               </p>
                             </div>
                           </div>
@@ -892,11 +898,11 @@ function MainPage() {
                     <div className="cd-timeline-img"></div>
                     <div className="cd-timeline-content col m5 s12 z-depth-1">
                       <a href="">
-                        <h2>Master Class @Simplilearn</h2>
+                        <h2>Java Master Class @Simplilearn</h2>
                       </a>
                       <span>2021</span>
                       <p>
-                        The program is a Master Class focused on Sring Boot, Web Development, Docker, AWS Automation and Frontend Frameworks.
+                        The program is a Java Master Class focused on Spring Boot, Hibernate, CI/CD, Web Development, Docker, AWS Automation and Frontend Frameworks.
                       </p>
                     </div>
                   </div>
@@ -913,11 +919,11 @@ function MainPage() {
                     </a>
                     <span>2016</span>
                     <p>
-                      The program of my Master is handle the standard study of
-                      algorithms, programming on Java SE as EE, ORM, and New
-                      Techniques as Text Processing, Mobile App Development,
-                      Cloud computing. It gives the expertise to handle any kind
-                      of area of the IT development.
+                      The program of my Master's degree handles the standard study of 
+                      algorithms, programming in Java SE and EE, ORM, and New 
+                      Techniques such as Text Processing, Mobile App Development, and 
+                      Cloud computing. It provides the expertise to handle any kind 
+                      of area in IT development.
                     </p>
                   </div>
                 </div>
@@ -942,19 +948,20 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="">
-                      <h2>
-                        BSc in Computer Science @Universidad Catolica Andres
-                        Bello
+                      <h2 style={{ lineHeight: '30px' }}>
+                        BSc in Computer Science
                       </h2>
+                       <h2 style={{lineHeight: '30px'}}>@Universidad Catolica Andres
+                       Bello(UCAB)</h2>
                     </a>
                     <span>2013</span>
                     <p>
-                      The program at my University handle the standard study of
-                      algorithms, programming on Java and Development of Data
-                      Base. Through this i got knowledge on building SaaS
-                      aplications with Java, where it involves the study of the
-                      business logic, choosing the best methodologies and
-                      working as a team to delivery success products.
+                      The program at my University handles the standard study of 
+                      algorithms, programming in Java and Development of Databases. 
+                      Through this I gained knowledge in building SaaS 
+                      applications with Java, which involves the study of 
+                      business logic, choosing the best methodologies and 
+                      working as a team to deliver successful products.
                     </p>
                   </div>
                 </div>
@@ -965,7 +972,7 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="">
-                      <h2>Cisco Certified Network Associate @CCNA</h2>
+                      <h2 style={{lineHeight: '30px'}}>Cisco Certified Network Associate @CCNA</h2>
                     </a>
                     <span>2013</span>
                     <p>During this course, I gained knowledge of networking techniques essential for developing 
@@ -1007,7 +1014,7 @@ function MainPage() {
                         </div>
                         <div className="post-details">
                           <p>
-                            In this article your will find a short story about
+                            In this article you will find a short story about
                             research on the field of the Consciousness and how
                             it is been using as learning methodology
                           </p>
