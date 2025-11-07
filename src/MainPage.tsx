@@ -155,7 +155,7 @@ function MainPage() {
                   <div className="intro-content">
                     <h2>Hi, I'm Franco Gutierrez</h2>
                     <span>
-                      A Software Engineer, Cloud Enthusiast and Writing Avocate
+                       A Software Engineer, Cloud Enthusiast and Writing Avocate
                     </span>
                     <p>
                       Over the past several years, I've built a track record of delivering 
@@ -596,16 +596,7 @@ function MainPage() {
                     </a>
                     <span>Oct 2016 to April 2017 </span>
                     <p>
-                      I worked as a team player by delivering smart solutions
-                      for the development of an Android Medical App. I helped
-                      deliver high quality code which involved more than 200,000
-                      lines of code for a well-known brand in Europe. We used
-                      the latest technologies on the market such as a
-                      distributed version control system (Bitbucket) and agile
-                      methodologies (Scrum, Kanban). During the project, I was
-                      involved in developing RESTful APIs in Java for delivering
-                      information and setting up the devices needed as
-                      microservices for our client to assist customer needs.
+                      I worked as a team player for a CGM solution Medical App; Guardian Connect – a mobile-enabled continuous glucose monitoring system – for Medtronic Diabetes. This leading diabetes management system uses an app to help diabetes patients monitor and manage their glucose levels in a home care setting.
                       <br></br>
                       <span>
                         <a href="https://bluebridgetechnologies.com">
