@@ -453,7 +453,7 @@ function MainPage() {
                     </a>
                     <span>Contract</span>
                     <p>
-                      Gained valuable experience as a Leading a Frontend SaaS Application project based on ReactJS for ESB.
+                      Gained valuable experience Leading a Frontend SaaS Application project based on ReactJS for ESB.
                       <br></br>
                       <span>
                         <a href="http://powercheck.esbnetworks.ie">
