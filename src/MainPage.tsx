@@ -160,7 +160,7 @@ function MainPage() {
                     <p>
                       Over the past several years, I've built a track record of delivering 
                       SaaS applications as successful products by effectively 
-                      guiding them to production environments. As a passionate 
+                      guiding them to production environments for companies such FinTech and BioTech companies. As a passionate 
                       Software Engineer with a strong focus on SaaS applications, 
                       I am seeking new challenges in innovation. I welcome the 
                       opportunity to discuss how my expertise could benefit 
@@ -435,6 +435,34 @@ function MainPage() {
                 </h2>
               </div>
               <div id="cd-timeline" className="cd-container">
+                <div
+                  className="cd-timeline-block wow fadeIn a2"
+                  data-wow-delay="0.2s"
+                >
+                  <div className="cd-timeline-img"></div>
+                  <div className="cd-timeline-content col m5 s12 z-depth-1">
+                    <a href="https://www.accenture.com/">
+                      <h2 style={{ lineHeight: "20px" }}>
+                        Senior Frontend Developer
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @ESB Networks
+                        </span>
+                      </h2>
+                    </a>
+                    <span>Contract</span>
+                    <p>
+                      Gained valuable experience as a Leading a Frontend SaaS Application project based on ReactJS for ESB.
+                      <br></br>
+                      <span>
+                        <a href="http://powercheck.esbnetworks.ie">
+                          http://powercheck.esbnetworks.ie
+                        </a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
                 <div
                   className="cd-timeline-block wow fadeIn a2"
                   data-wow-delay="0.2s"
