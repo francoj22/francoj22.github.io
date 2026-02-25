@@ -475,7 +475,7 @@ function MainPage() {
                         <span style={{ color: "grey" }}>@Sugi Fkms Ltd</span>
                       </h2>
                     </a>
-                    <span>March 2024 to July 2025</span>
+                    <span>From March 2024</span>
                     <p>
                       At Sugi I worked building a cutting-edge SaaS application
                       for the FinTech sector, bringing my experience as a
