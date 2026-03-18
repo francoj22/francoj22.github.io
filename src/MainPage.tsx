@@ -848,26 +848,7 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="category-1">
-                      <figure className="more">
-                        <img
-                          className="h-auto max-w-full rounded-base"
-                          src={sugi_pdf_application}
-                          alt="sugi_pdf_application"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Search Jobs App</h2>
-                              <p>
-                                Tech Stack: Javascript, Tailwindcss, Vue, Docker
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="category-1">
+                                        <li className="category-1">
                       <figure className="more">
                         <img
                           className="h-auto max-w-full rounded-base"
@@ -886,11 +867,10 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                                        <li className="col m4 s12 category-1">
+
+                    <li className="col m4 s12 category-1">
                       <figure className="more">
                         <img
-                          height="200px"
-                          width="200px"
                           src={scuv14}
                           alt="scuv14"
                         />
@@ -911,8 +891,6 @@ function MainPage() {
                     <li className="col m4 s12 category-2">
                       <figure className="more">
                         <img
-                          height="200px"
-                          width="200px"
                           src={mailboxSite}
                           alt="mailboxSite"
                         />
@@ -987,7 +965,26 @@ function MainPage() {
                       </figure>
                     </li>
 
-
+                    <li className="category-1">
+                      <figure className="more">
+                        <img
+                          className="max-w-full rounded-base"
+                          height="400px"
+                          src={sugi_pdf_application}
+                          alt="sugi_pdf_application"
+                        />
+                        <figcaption>
+                          <div className="caption-content">
+                            <div className="single_image">
+                              <h2>Search Jobs App</h2>
+                              <p>
+                                Tech Stack: Javascript, Tailwindcss, Vue, Docker
+                              </p>
+                            </div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </li>
                   </ul>
                 </div>
               </div>
