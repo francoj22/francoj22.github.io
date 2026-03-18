@@ -944,7 +944,7 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="category-1">
+                    <li className="category-2">
                       <figure className="more">
                         <img
                           className="h-auto max-w-full rounded-base"
@@ -965,7 +965,7 @@ function MainPage() {
                       </figure>
                     </li>
 
-                    <li className="category-1">
+                    <li className="category-2">
                       <figure className="more">
                         <img
                           className="max-w-full rounded-base"
@@ -1071,9 +1071,7 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="">
-                      <h2>English Course@Dorset College Ireland</h2>
-                    </a>
+                    <h2>English Course@Dorset College Ireland</h2>
                     <span>2014</span>
                     <p>
                       Through this course, I developed a foundational
@@ -1276,6 +1274,9 @@ function MainPage() {
                         data-delay="50"
                         data-tooltip="linkedin"
                         href="https://ie.linkedin.com/in/franco-gutierrez-4a073483"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn profile"
                       ></a>
                     </li>
                     <li>
@@ -1284,7 +1285,10 @@ function MainPage() {
                         data-position="top"
                         data-delay="50"
                         data-tooltip="Github"
-                        href="http://github.com/francoj22"
+                        href="https://github.com/francoj22"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub profile"
                       ></a>
                     </li>
                   </ul>
