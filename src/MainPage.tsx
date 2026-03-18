@@ -745,7 +745,7 @@ function MainPage() {
                         <img
                           className="h-auto max-w-full rounded-base"
                           src={fideitySite}
-                          alt="Screenshotite 01"
+                          alt="Fidelity Investment - Digital Platform"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -791,7 +791,7 @@ function MainPage() {
                         <img
                           className="h-auto max-w-full rounded-base"
                           src={equifaxSite}
-                          alt="equifaxsite"
+                          alt="Comliance Center and I-9 plaform"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -834,7 +834,7 @@ function MainPage() {
                         <img
                           className="h-auto max-w-full rounded-base"
                           src={panasearch}
-                          alt="panasearch"
+                          alt="SUGI Search Jobs App"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -848,12 +848,12 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                                        <li className="category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
                           className="h-auto max-w-full rounded-base"
                           src={sugifkms}
-                          alt="sugifkms"
+                          alt="Official FKMS Site"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -872,7 +872,7 @@ function MainPage() {
                       <figure className="more">
                         <img
                           src={scuv14}
-                          alt="scuv14"
+                          alt="Servico Comunitario Universitario"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -892,7 +892,7 @@ function MainPage() {
                       <figure className="more">
                         <img
                           src={mailboxSite}
-                          alt="mailboxSite"
+                          alt="Mailbox Web Design Project"
                         />
                         <figcaption>
                           <div className="caption-content">
@@ -912,7 +912,7 @@ function MainPage() {
                         <img
                           className="h-auto max-w-full rounded-base"
                           src={liveirishradio}
-                          alt="liveirishradio"
+                          alt="Radio Station Web Design and Mobile App"
                         />
                         <figcaption>
                           <div className="caption-content">
