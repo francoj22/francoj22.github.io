@@ -9,7 +9,7 @@ import liveirishradio from "./assets/images/liveirishradio.jpg";
 import AIproject from "./assets/images/project-ia.png";
 import stream1 from "./assets/images/stream1.jpg";
 import panasearch from "./assets/images/panasearch.png";
-import sugi_pdf_application from "./assets/images/sugi_pdf_application.png";
+import sugi_pdf_application from "./assets/images/sugipdf.png";
 import sugifkms from "./assets/images/sugifkms.png";
 import mailboxSite from "./assets/images/project-mailbox.png";
 import scuv14 from "./assets/images/project-scuv14.png";
@@ -886,6 +886,49 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
+                                        <li className="col m4 s12 category-1">
+                      <figure className="more">
+                        <img
+                          height="200px"
+                          width="200px"
+                          src={scuv14}
+                          alt="scuv14"
+                        />
+                        <figcaption>
+                          <div className="caption-content">
+                            <div className="single_image">
+                              <h2>Software Developer and Database</h2>
+                              <p>
+                                Part of the software developer team. Providing
+                                base component of the form and the queries to
+                                the database.
+                              </p>
+                            </div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li className="col m4 s12 category-2">
+                      <figure className="more">
+                        <img
+                          height="200px"
+                          width="200px"
+                          src={mailboxSite}
+                          alt="mailboxSite"
+                        />
+                        <figcaption>
+                          <div className="caption-content">
+                            <div className="single_image">
+                              <h2>Web Design</h2>
+                              <p>
+                                Prototyping front end development and api for
+                                mobile app.
+                              </p>
+                            </div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </li>
                     <li className="category-1">
                       <figure className="more">
                         <img
@@ -943,49 +986,8 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m4 s12 category-2">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={mailboxSite}
-                          alt="mailboxSite"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Web Design</h2>
-                              <p>
-                                Prototyping front end development and api for
-                                mobile app.
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m4 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={scuv14}
-                          alt="scuv14"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Software Developer and Database</h2>
-                              <p>
-                                Part of the software developer team. Providing
-                                base component of the form and the queries to
-                                the database.
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
+
+
                   </ul>
                 </div>
               </div>
