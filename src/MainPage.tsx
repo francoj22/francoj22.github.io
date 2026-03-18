@@ -8,6 +8,8 @@ import medicalSite from "./assets/images/bluebridgetech.png";
 import liveirishradio from "./assets/images/liveirishradio.jpg";
 import AIproject from "./assets/images/project-ia.png";
 import stream1 from "./assets/images/stream1.jpg";
+import panasearch from "./assets/images/panasearch.png";
+import sugifkms from "./assets/images/sugifkms.png";
 import mailboxSite from "./assets/images/project-mailbox.png";
 import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
@@ -46,7 +48,6 @@ function MainPage() {
   }, []);
 
   return (
-    <>
       <>
         {/* HEADER TOP */}
         <header id="header-top">
@@ -737,12 +738,11 @@ function MainPage() {
               </div>
               <div className="screenshots" id="portfolio-item">
                 <div className="row">
-                  <ul>
-                    <li className="col m12 s12 category-1">
+                  <ul className="grid grid-cols-2 gap-2">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="500px"
-                          width="500px"
+                          className="h-auto max-w-full rounded-base"
                           src={fideitySite}
                           alt="Screenshotite 01"
                         />
@@ -762,11 +762,10 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m12 s12 category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="500px"
-                          width="500px"
+                          className="h-auto max-w-full rounded-base"
                           src={exadsSite}
                           alt="ExadsSite"
                         />
@@ -786,11 +785,10 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m12 s12 category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="500px"
-                          width="500px"
+                          className="h-auto max-w-full rounded-base"
                           src={equifaxSite}
                           alt="equifaxsite"
                         />
@@ -810,11 +808,10 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m12 s12 category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="500px"
-                          width="500px"
+                          className="h-auto max-w-full rounded-base"
                           src={medicalSite}
                           alt="medicalSite1"
                         />
@@ -831,11 +828,48 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m4 s12 category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="200px"
-                          width="200px"
+                          className="h-auto max-w-full rounded-base"
+                          src={panasearch}
+                          alt="panasearch"
+                        />
+                        <figcaption>
+                          <div className="caption-content">
+                            <div className="single_image">
+                              <h2>Search Jobs App</h2>
+                              <p>
+                                Tech Stack: Javascript, Tailwindcss, Vue, Docker
+                              </p>
+                            </div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </li>
+                                        <li className="category-1">
+                      <figure className="more">
+                        <img
+                          className="h-auto max-w-full rounded-base"
+                          src={sugifkms}
+                          alt="sugifkms"
+                        />
+                        <figcaption>
+                          <div className="caption-content">
+                            <div className="single_image">
+                              <h2>Offical Sugi Site</h2>
+                              <p>
+                                Tech Stack: Javascript, Java, Spring Boot, ReactJS, Docker, Azure DevOps, AWS
+                              </p>
+                            </div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li className="category-1">
+                      <figure className="more">
+                        <img
+                          className="h-auto max-w-full rounded-base"
                           src={liveirishradio}
                           alt="liveirishradio"
                         />
@@ -852,11 +886,10 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m4 s12 category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="200px"
-                          width="200px"
+                          className="h-auto max-w-full rounded-base"
                           src={stream1}
                           alt="stream1"
                         />
@@ -870,11 +903,10 @@ function MainPage() {
                         </figcaption>
                       </figure>
                     </li>
-                    <li className="col m4 s12 category-1">
+                    <li className="category-1">
                       <figure className="more">
                         <img
-                          height="200px"
-                          width="200px"
+                          className="h-auto max-w-full rounded-base"
                           src={AIproject}
                           alt="AIproject"
                         />
@@ -1243,7 +1275,6 @@ function MainPage() {
           </div>
         </section>
       </>
-    </>
   );
 }
 
