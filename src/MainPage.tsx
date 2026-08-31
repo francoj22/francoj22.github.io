@@ -829,6 +829,27 @@ function MainPage() {
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
+                          <a
+                            href="https://medium.com/@francogtz/canceling-an-azure-suscription-6b2a4309c51c"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <h2>Canceling an Azure Subscription</h2>
+                            <span>Azure / Cloud</span>
+                          </a>
+                        </div>
+                        <div className="post-details">
+                          <p>
+                            A step-by-step guide on how to cancel an Azure subscription, covering the key considerations and actions to take before closing your account.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
+                    <div className="thumbnail z-depth-1 animated">
+                      <div>
+                        <div className="post-title" id="blog-post-1">
                           <Link to={"blog/blog-research"}>
                             <h2>Research Methods</h2>
                             <span>Consciousness</span>
