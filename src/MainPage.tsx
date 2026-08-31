@@ -147,7 +147,7 @@ function MainPage() {
                         <h2 style={{ fontSize: "30px" }}>Key Technologies</h2>
                         <ul>
                           <li>
-                            ReactJS, Angular - Typescript, Java, Node.js, Python
+                            ReactJS, Angular - Typescript, Spring Boot, Java EE, Node.js, Python
                           </li>
                           <li>AWS Cloud Services</li>
                           <li>Docker & Kubernetes</li>
