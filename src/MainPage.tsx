@@ -118,17 +118,16 @@ function MainPage() {
                   <div className="intro-content">
                     <h2>Hi, I'm Franco Gutierrez</h2>
                     <span>
-                       A Software Engineer, Cloud Enthusiast and Writing Avocate
+                       A Certified Software Engineer, Cloud Enthusiast and Writing Avocate
                     </span>
                     <p>
-                      Over the past several years, I've built a track record of delivering 
-                      SaaS applications as successful products by effectively 
-                      guiding them to production environments for companies such FinTech and BioTech companies. As a passionate 
-                      Software Engineer with a strong focus on SaaS applications, 
-                      I am seeking new challenges in innovation. I welcome the 
-                      opportunity to discuss how my expertise could benefit 
-                      your team. Please don't hesitate to reach out if my 
-                      profile aligns with your needs.
+                      Over the past years, I've built a track record of delivering 
+                      successful SaaS applications by effectively 
+                      implementing software design patterns and developing features for companies on FinTech or BioTech industries. As a passionate 
+                      Software Engineer with a strong focus on UI for SaaS applications, 
+                      I am seeking new challenges in innovation with cutting edge technologies. I would welcome the 
+                      opportunity to discuss new roles. Please don't hesitate to reach out if my 
+                      profile aligns with company needs.
                     </p>
                     <div className="row">
                       <div className="col s12 m6">
