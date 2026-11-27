@@ -1,10 +1,17 @@
 import type { PortfolioProject } from "../features/portfolio/domain/portfolio.types";
+import useScrollReveal from "../hooks/useScrollReveal";
 
 type PortfolioSectionProps = {
   projects: PortfolioProject[];
 };
 
 export default function PortfolioSection({ projects }: PortfolioSectionProps) {
+  const gridRef = useScrollReveal(
+    projects,
+    ".portfolio-reveal",
+    "portfolio-reveal-pending"
+  );
+
   return (
     <section id="portfolio">
       <div className="container">
@@ -15,18 +22,20 @@ export default function PortfolioSection({ projects }: PortfolioSectionProps) {
             </h2>
           </div>
 
-          <div className="portfolio-grid" id="portfolio-item">
+          <div className="portfolio-grid" id="portfolio-item" ref={gridRef}>
             {projects.map((project) => (
-              <article className="portfolio-card" key={project.title}>
-                <div className="portfolio-image-wrap">
-                  <img src={project.image} alt={project.alt} />
-                </div>
-                <div className="portfolio-card-body">
-                  <h3>{project.title}</h3>
-                  <p>{project.summary}</p>
-                  <p className="portfolio-stack">{project.stack}</p>
-                </div>
-              </article>
+              <div className="portfolio-reveal" key={project.title}>
+                <article className="portfolio-card">
+                  <div className="portfolio-image-wrap">
+                    <img src={project.image} alt={project.alt} />
+                  </div>
+                  <div className="portfolio-card-body">
+                    <h3>{project.title}</h3>
+                    <p>{project.summary}</p>
+                    <p className="portfolio-stack">{project.stack}</p>
+                  </div>
+                </article>
+              </div>
             ))}
           </div>
 
