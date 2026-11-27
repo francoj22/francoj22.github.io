@@ -1,63 +1,15 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./App.css";
 import profile from "./assets/images/short-profile.png";
-import fideitySite from "./assets/images/fidelity.png";
-import exadsSite from "./assets/images/exads.png";
-import equifaxSite from "./assets/images/equifax.png";
-import medicalSite from "./assets/images/bluebridgetech.png";
-import liveirishradio from "./assets/images/liveirishradio.jpg";
-import AIproject from "./assets/images/project-ia.png";
-import stream1 from "./assets/images/stream1.jpg";
-import mailboxSite from "./assets/images/project-mailbox.png";
-import scuv14 from "./assets/images/project-scuv14.png";
 import { Link } from "react-router";
-import { useEffect } from "react";
 import "animate.css";
-
-import $ from "jquery";
+import PortfolioSection from "./components/PortfolioSection";
+import { portfolioProjects } from "./features/portfolio/data/portfolioProjects";
+import useLegacyLandingScripts from "./hooks/useLegacyLandingScripts";
 
 function MainPage() {
-  useEffect(() => {
-    // Load WOW.js from CDN
-    const scriptWow = document.createElement("script");
-    scriptWow.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js";
-    scriptWow.onload = () => {
-      const WOW = (window as any).WOW;
-      if (WOW) {
-        const wow = new WOW({ live: false });
-        wow.init();
-      }
-    };
-    document.head.appendChild(scriptWow);
-    $("#alertButton").on("click", () => {
-      alert("jQuery alert inside React!");
-    });
-
-    $(".progress .determinate").each(function () {
-      const width = $(this).text();
-      console.log(`Rendering progress bar with width: ${width}`);
-      $(this)
-        .css("width", width)
-        .empty()
-        .append('<i class="fa fa-circle"></i>');
-    });
-
-    const script = document.createElement("script");
-    script.src = "/assets/js/init.js"; // adjust path as needed
-    script.async = true;
-    script.onload = () => {
-      if ((window as any).init) {
-           alert("jQuery alert asc React!");
-
-      }
-    };
-    document.body.appendChild(script);
-
-  }, []);
+  useLegacyLandingScripts();
 
   return (
-    <>
       <>
         {/* HEADER TOP */}
         <header id="header-top">
@@ -66,10 +18,9 @@ function MainPage() {
               <div className="top-contact col m12 s12 right">
                 <span>
                   <i className="fa fa-linkedin"></i>
-                  <a href="https://ie.linkedin.com/in/franco-gutierrez-4a073483">
+                  <a href="https://www.linkedin.com/in/francogu/">
                     Franco Gutierrez
                   </a>
-                  {/* <button id="test">Click Me</button> */}
                 </span>
               </div>
             </div>
@@ -94,7 +45,7 @@ function MainPage() {
                         <a href="#works">Works</a>
                       </li>
                       <li>
-                        <a href="#portfolio">Portolio</a>
+                        <a href="#portfolio">Portfolio</a>
                       </li>
                       <li>
                         <a href="#education">Education</a>
@@ -122,7 +73,7 @@ function MainPage() {
                         <a href="#works">Works</a>
                       </li>
                       <li>
-                        <a href="#portfolio">Portolio</a>
+                        <a href="#portfolio">Portfolio</a>
                       </li>
                       <li>
                         <a href="#education">Education</a>
@@ -167,20 +118,22 @@ function MainPage() {
                   <div className="intro-content">
                     <h2>Hi, I'm Franco Gutierrez</h2>
                     <span>
-                      A Software Engineer, Cloud Enthusiast and Writer Avocade
+                       A Certified Software Engineer, Cloud Enthusiast and Writing Avocate
                     </span>
                     <p>
-                      Over the past several years, I've built a track record of
-                      SaaS applications to successful products by effectively guiding them
-                      to production environments, as a passionate Software
-                      Engineer with strong focus on SaaS applications, I am seeking new challenges on innovation, I welcome
-                      the opportunity to discuss how my expertise could benefit
-                      your team. Please don't hesitate to reach out if my
-                      profile aligns with your needs.
+                      Over the past years, I've built a track record of delivering 
+                      successful SaaS applications by effectively 
+                      implementing software design patterns and developing features for companies on FinTech or BioTech industries. As a passionate 
+                      Software Engineer with a strong focus on UI for SaaS applications, 
+                      I am seeking new challenges in innovation with cutting edge technologies. I would welcome the 
+                      opportunity to discuss new roles. Please don't hesitate to reach out if my 
+                      profile aligns with company needs.
                     </p>
                     <div className="row">
                       <div className="col s12 m6">
-                        <h2 style={{ fontSize: "30px" }}>Professional Skills</h2>
+                        <h2 style={{ fontSize: "30px" }}>
+                          Professional Skills
+                        </h2>
                         <ul>
                           <li>Full Stack Development</li>
                           <li>Cloud Services</li>
@@ -192,7 +145,9 @@ function MainPage() {
                       <div className="col s12 m6">
                         <h2 style={{ fontSize: "30px" }}>Key Technologies</h2>
                         <ul>
-                          <li>ReactJS, Angular - Typescript, Java, Node.js, Python</li>
+                          <li>
+                            ReactJS, Angular - Typescript, Spring Boot, Java EE, Node.js, Python
+                          </li>
                           <li>AWS Cloud Services</li>
                           <li>Docker & Kubernetes</li>
                           <li>CI/CD</li>
@@ -367,10 +322,7 @@ function MainPage() {
                     <div className="col m2 skill-icon">
                       <i className="fa fa-calendar-o"></i>
                     </div>
-                    <div
-                      className="skill-bar"
-                      data-wow-delay="0.2s"
-                    >
+                    <div className="skill-bar" data-wow-delay="0.2s">
                       <h3>Personal Skills </h3>
                       <span>Communication, Planning</span>
                       <div className="progress">
@@ -451,14 +403,50 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="https://www.sugifkms.com/">
-                      <h2>Software Engineer @sugi</h2>
+                    <a href="https://www.accenture.com/">
+                      <h2 style={{ lineHeight: "20px" }}>
+                        Senior Frontend Developer
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @ESB Networks
+                        </span>
+                      </h2>
                     </a>
-                    <span>March 2024 to July 2025</span>
+                    <span>Contract</span>
                     <p>
-                      At Sugi has worked building a cutting-edge SaaS application for the FinTech sector,
-                      bringing my expterience as a fullstack engineer with strong focus on the frontend side with ReactJS and Typescript.
-                      <span> <a href="https://sugifkms.com">https://sugifkms.com</a> </span>
+                      Gained valuable experience Leading a Frontend SaaS Application project based on ReactJS for ESB.
+                      <br></br>
+                      <span>
+                        <a href="http://powercheck.esbnetworks.ie">
+                          http://powercheck.esbnetworks.ie
+                        </a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="cd-timeline-block wow fadeIn a2"
+                  data-wow-delay="0.2s"
+                >
+                  <div className="cd-timeline-img"></div>
+                  <div className="cd-timeline-content col m5 s12 z-depth-1">
+                    <a href="https://www.sugifkms.com/">
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Sugi Fkms Ltd</span>
+                      </h2>
+                    </a>
+                    <span>From March 2024</span>
+                    <p>
+                      At Sugi I worked building a cutting-edge SaaS application
+                      for the FinTech sector, bringing my experience as a
+                      full-stack engineer with strong focus on Spring Boot,
+                      Node.js and ReactJS.
+                      <br></br>
+                      <span>
+                        <a href="https://sugifkms.com">https://sugifkms.com</a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -469,7 +457,14 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.fidelityinvestments.ie/">
-                      <h2>Senior Software Engineer @ Fidelity Investments</h2>
+                      <h2 style={{ lineHeight: "20px" }}>
+                        Senior Software Engineer{" "}
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @Fidelity Investments
+                        </span>
+                      </h2>
                     </a>
                     <span>April 2022 to December 2024</span>
                     <p>
@@ -477,8 +472,12 @@ function MainPage() {
                       the past years, working with various technologies and
                       components such as RESTful API, microservices, CI/CD, AWS,
                       web development, and User Acceptance Testing (UAT).
-                      <span> <a href="https://www.fidelityinvestments.ie/">https://www.fidelityinvestments.ie/</a> </span>
-                   
+                      <br></br>
+                      <span>
+                        <a href="https://www.fidelityinvestments.ie/">
+                          https://www.fidelityinvestments.ie/
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -489,16 +488,24 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.exads.com/">
-                      <h2>Frontend Developer @Exads.com</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Frontend Developer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Exads.com</span>
+                      </h2>
                     </a>
                     <span>Oct 2020 to March 2022</span>
                     <p>
-                      During this role, I have got experience developing an app
-                      on Angular and React, I also have implement ideas and new
-                      concepts like new css frameworks in the market, one of my
-                      achievement have been developing new feature for the
-                      current app and creating a new website (www.exads.com).
-                       <span> <a href="https://www.exads.com/">https://www.exads.com/</a> </span>
+                      During this role, I gained experience developing an app in
+                      Angular and React. I also implemented ideas and new
+                      concepts like new CSS frameworks in the market. One of my
+                      achievements was developing new features for the current
+                      app and creating a new website (www.exads.com).
+                      <br></br>
+                      <span>
+                        <a href="https://www.exads.com/">
+                          https://www.exads.com/
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -509,17 +516,25 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://www.equifax.com/personal">
-                      <h2>Software Engineer @Equifax.ie</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Equifax.ie</span>
+                      </h2>
                     </a>
                     <span>Sept 2017 to March 2020</span>
                     <p>
-                      In this role, I got experience by performing such as the
-                      design, implementation as the maintenance of product
-                      modules and systems delivered by Equifax and I also
-                      offered support as QA developer to develop end-to-end
-                      tests and worked close with the backend developer in the
-                      process of building RESTful APIs.
-                       <span> <a href="https://www.equifax.com/personal">https://www.equifax.com/personal</a> </span>
+                      In this role, I gained experience performing tasks such as
+                      the design, implementation and maintenance of product
+                      modules and systems delivered by Equifax. I also offered
+                      support as a QA developer to develop end-to-end tests and
+                      worked closely with backend developers in the process of
+                      building RESTful APIs, and CI/CD pipelines.
+                      <br></br>
+                      <span>
+                        <a href="https://www.equifax.com/personal">
+                          https://www.equifax.com/personal
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -530,16 +545,28 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://francoj22.github.io/liveirishradio/">
-                      <h2>Software Developer @LiveIrishRadio.ie</h2>
+                      <h2 style={{ lineHeight: "20px" }}>
+                        Software Developer{" "}
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>
+                          @LiveIrishRadio.ie
+                        </span>
+                      </h2>
                     </a>
                     <span>Feb 2015 to April 2017</span>
                     <p>
-                      In this role, I got experience doing a website using
-                      Material Design, PHP, Angular JS, and MySQL., It is
+                      In this role, I gained experience developing a website
+                      using Material Design, PHP, AngularJS, and MySQL. It is a
                       personal project which integrates an app made for Android
-                      devices where populates a list of music from a RESTful web
+                      devices that populates a list of music from RESTful web
                       services.
-                       <span> <a href="https://francoj22.github.io/liveirishradio/">https://francoj22.github.io/liveirishradio/</a> </span>
+                      <br></br>
+                      <span>
+                        <a href="https://francoj22.github.io/liveirishradio/">
+                          https://francoj22.github.io/liveirishradio/
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -550,23 +577,22 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://bluebridgetechnologies.com">
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer</h2>
                       <h2>
-                        Junior Software Engineer @BlueBridgeTechnologies.IE
+                        <span style={{ color: "grey" }}>
+                          @BlueBridgeTechnologies
+                        </span>
                       </h2>
                     </a>
                     <span>Oct 2016 to April 2017 </span>
                     <p>
-                      I worked as a team player by delivering smart solutions
-                      for the development of an Android Medical App. I helped
-                      deliver high quality of code which involves more than
-                      200,000 lines of code for a high known brand in Europe. We
-                      used the latest technologies on the market such as a
-                      distributed version control system (Bitbucket) and agile
-                      methodologies (Scrum, Kanban). During the project, I was
-                      involved as the RESTful APIs in Java for delivering
-                      information and set up the devices needed as a
-                      microservices for our Client to assist customer needs
-                       <span> <a href="https://bluebridgetechnologies.com">http://bluebridgetechnologies.com</a> </span>
+                      I worked as a team player for a CGM solution Medical App; Guardian Connect – a mobile-enabled continuous glucose monitoring system – for Medtronic Diabetes. This leading diabetes management system uses an app to help diabetes patients monitor and manage their glucose levels in a home care setting.
+                      <br></br>
+                      <span>
+                        <a href="https://bluebridgetechnologies.com">
+                          http://bluebridgetechnologies.com
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -576,16 +602,21 @@ function MainPage() {
                 >
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="https://PRINTBOX.IE">
-                      <h2>WebDesigner and Mobile App Developer @PRINTBOX.IE</h2>
+                    <a href="https://mapcarta.com/N5384454767">
+                      <h2 style={{ lineHeight: "20px" }}>
+                        WebDesigner and Mobile App Developer
+                      </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@PRINTBOX</span>
+                      </h2>
                     </a>
                     <span>April 2014 to August 2014 </span>
                     <p>
                       In this position, I acquired valuable knowledge about
                       computer maintenance, testing software development on the
                       server side, detecting bugs and providing problem-solving
-                      such as, database development and RESTful APIs in PHP and
-                      Java.
+                      solutions such as database development and RESTful APIs in
+                      WordPress, Spring Boot, and Cloud Services.
                     </p>
                   </div>
                 </div>
@@ -596,18 +627,23 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="https://square1.io/">
-                      <h2>Android Developer @Square1.io</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Mobile Developer</h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@Square1.io</span>
+                      </h2>
                     </a>
                     <span>March 2014 to April 2014 </span>
                     <p>
                       In this role I was working as part of a team and was
                       responsible for developing an application for Android
-                      platforms that played videos where we panned the UI, and
-                      defined as first step all the requirements functional and
-                      no functional for starting the project.
-                       <span> <a href="https://square1.io/">https://square1.io/</a> </span>
+                      platforms that played videos where we planned the UI and
+                      defined as the first step all the functional and
+                      non-functional requirements for starting the project.
+                      <br></br>
+                      <span>
+                        <a href="https://square1.io/">https://square1.io/</a>
+                      </span>
                     </p>
-                    
                   </div>
                 </div>
 
@@ -618,21 +654,26 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="http://sidor.com">
-                      <h2>Software Engineer @SIDOR C.A</h2>
+                      <h2 style={{ lineHeight: "20px" }}>Software Engineer </h2>
+                      <h2>
+                        <span style={{ color: "grey" }}>@SIDOR C.A</span>
+                      </h2>
                     </a>
                     <span>April 2012 and April 2013 / September 2012 </span>
                     <p>
                       I worked on a project which involved developing an
                       intelligent system which was required to improve the
-                      process for SIDORs methods in mineral seeking. The methods
-                      provided them options for improvement in suitability of
-                      finding the different variables. The result of the project
-                      gave the company new options for finding specific high
-                      quality ores for mining. Click to the link below here to
-                      watch the presentation{" "}
-                      {/* <span><a href="http://sh.st/Q46Qn">Demo</a></span> */}
+                      process for SIDOR's methods in mineral exploration. The
+                      methods provided them options for improvement in the
+                      suitability of finding the different variables. The result
+                      of the project gave the company new options for finding
+                      specific high quality ores for mining.
                       <br />
-                       <span> <a href="https://www.sidor.com">https://www.sidor.com</a> </span>
+                      <span>
+                        <a href="https://www.sidor.com">
+                          https://www.sidor.com
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -641,243 +682,7 @@ function MainPage() {
           </div>
         </section>
 
-        <section id="portfolio">
-          <div className="container">
-            <div className="row">
-              <div
-                className="section-title wow fadeIn a1"
-                data-wow-delay="0.1s"
-              >
-                <h2>
-                  <i className="fa fa-th-list"></i>Portfolio
-                </h2>
-              </div>
-
-              <div id="loader">
-                <div className="loader-icon"></div>
-              </div>
-              <div className="screenshots" id="portfolio-item">
-                <div className="row">
-                  <ul>
-                    <li className="col m12 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="500px"
-                          width="500px"
-                          src={fideitySite}
-                          alt="Screenshotite 01"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>
-                                American multinational financial services
-                                corporation based in Boston, Massachusetts. The
-                                company was established in 1946 and is one of
-                                the largest asset managers in the world with
-                                $4.3 trillion in assets under management
-                              </h2>
-                              <p>Web Development, Microservices, and Testing</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m12 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="500px"
-                          width="500px"
-                          src={exadsSite}
-                          alt="ExdasSite"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>
-                                Platform developed on Angular, and the offical
-                                website on React
-                              </h2>
-                              <p>
-                                Using as technique Bootstrap, Jasmine, Karma,
-                                MaterialUI, TailwindCSS
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m12 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="500px"
-                          width="500px"
-                          src={equifaxSite}
-                          alt="equifaxsite"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>
-                                Contribute on the Complice Center and I-9
-                                platform developed on Angular
-                              </h2>
-                              <p>
-                                Using as technique Bootstrap, Jasmine, Karma,
-                                MaterialUI
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m12 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="500px"
-                          width="500px"
-                          src={medicalSite}
-                          alt="medicalSite1"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Mobile Java Project</h2>
-                              <p>
-                                Tech Stack: Java, Reactive Programming, XML,
-                                Ruby and Python
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m4 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={liveirishradio}
-                          alt="liveirishradio"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>
-                                Web Design, Mobile App Developer, Backed
-                                Developer
-                              </h2>
-                              <p>Using Java and Web Services RESTful API</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m4 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={stream1}
-                          alt="stream1"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2> Mobile App Developer</h2>
-                              <p>On Android Studio</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m4 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={AIproject}
-                          alt="AIproject"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Artificial Intelligence</h2>
-                              <p>
-                                Using neural network as technique and Matlab as
-                                framework.
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m4 s12 category-2">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={mailboxSite}
-                          alt="mailboxSite"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Web Design</h2>
-                              <p>
-                                Prototyping front end development and api for
-                                mobile app.
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li className="col m4 s12 category-1">
-                      <figure className="more">
-                        <img
-                          height="200px"
-                          width="200px"
-                          src={scuv14}
-                          alt="scuv14"
-                        />
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Software Developer and Database</h2>
-                              <p>
-                                Part of the software developer team. Providing
-                                base component of the form and the queries to
-                                the data base.
-                              </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <a id="back-button" className="" href="#">
-                <img src="assets/images/np.png" />
-              </a>
-
-              <div
-                className="market-place col m12 s12 z-depth-1 wow fadeIn a3"
-                data-wow-delay="0.3s"
-              >
-                <ul>
-                  <li>
-                    <a href="http://github.com/francoj22">
-                      <h3>Github</h3>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+        <PortfolioSection projects={portfolioProjects} />
 
         <section id="education">
           <div className="container">
@@ -903,12 +708,13 @@ function MainPage() {
                     <div className="cd-timeline-img"></div>
                     <div className="cd-timeline-content col m5 s12 z-depth-1">
                       <a href="">
-                        <h2>Master Class @Simplilearn</h2>
+                        <h2>Java Master Class @Simplilearn</h2>
                       </a>
                       <span>2021</span>
                       <p>
-                        The program is a Master Class focused on Sprint Boot
-                        framework, Automation and Frontend Frameworks.
+                        The program is a Java Master Class focused on Spring
+                        Boot, Hibernate, CI/CD, Web Development, Docker, AWS
+                        Automation and Frontend Frameworks.
                       </p>
                     </div>
                   </div>
@@ -925,11 +731,29 @@ function MainPage() {
                     </a>
                     <span>2016</span>
                     <p>
-                      The program of my Master is handle the standard study of
-                      algorithms, programming on Java SE as EE, ORM, and New
-                      Techniques as Text Processing, Mobile App Development,
-                      Cloud computing. It gives the expertise to handle any kind
-                      of area of the IT development.
+                      The program of my Master's degree handles the standard
+                      study of algorithms, programming in Java SE and EE, ORM,
+                      and New Techniques such as Text Processing, Mobile App
+                      Development, and Cloud computing. It provides the
+                      expertise to handle any kind of area in IT development.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="cd-timeline-block wow fadeIn a2"
+                  data-wow-delay="0.4s"
+                >
+                  <div className="cd-timeline-img"></div>
+                  <div className="cd-timeline-content col m5 s12 z-depth-1">
+                    <h2>English Course@Dorset College Ireland</h2>
+                    <span>2014</span>
+                    <p>
+                      Through this course, I developed a foundational
+                      understanding of the English language, which has been
+                      instrumental in enhancing my communication skills. I am
+                      grateful to Dorset College for providing such a valuable
+                      learning experience.
                     </p>
                   </div>
                 </div>
@@ -941,19 +765,21 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="">
-                      <h2>
-                        BSc in Computer Science @Universidad Catolica Andres
-                        Bello
+                      <h2 style={{ lineHeight: "30px" }}>
+                        BSc in Computer Science
+                      </h2>
+                      <h2 style={{ lineHeight: "30px" }}>
+                        @Universidad Catolica Andres Bello(UCAB)
                       </h2>
                     </a>
                     <span>2013</span>
                     <p>
-                      The program at my University handle the standard study of
-                      algorithms, programming on Java and Development of Data
-                      Base. Through this i got knowledge on building SaaS
-                      aplications with Java, where it involves the study of the
+                      The program at my University handles the standard study of
+                      algorithms, programming in Java and Development of
+                      Databases. Through this I gained knowledge in building
+                      SaaS applications with Java, which involves the study of
                       business logic, choosing the best methodologies and
-                      working as a team to delivery success products.
+                      working as a team to deliver successful products.
                     </p>
                   </div>
                 </div>
@@ -964,32 +790,19 @@ function MainPage() {
                   <div className="cd-timeline-img"></div>
                   <div className="cd-timeline-content col m5 s12 z-depth-1">
                     <a href="">
-                      <h2>Cisco Certified Network Associate @CCNA</h2>
+                      <h2 style={{ lineHeight: "30px" }}>
+                        Cisco Certified Network Associate @CCNA
+                      </h2>
                     </a>
                     <span>2013</span>
                     <p>
-                      Although i am not implemented the full knowledge of the
-                      main className that i am still have the main idea and
-                      programming by prompt, using packet tracer as software.
-                      Also through during this course I got networking tech
-                      knowledge and techniques used for the development of
-                      network programms as security that shoube take care before
-                      put a product on production
+                      During this course, I gained knowledge of networking
+                      techniques essential for developing network programs, with
+                      a focus on security measures to implement before deploying
+                      a product to production. I learned about Networking
+                      Fundamentals, IP Services, Security Fundamentals, and
+                      Automation.
                     </p>
-                  </div>
-                </div>
-
-                <div
-                  className="cd-timeline-block wow fadeIn a4"
-                  data-wow-delay="0.4s"
-                >
-                  <div className="cd-timeline-img"></div>
-                  <div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href="">
-                      <h2>English Course@Dorset College Ireland</h2>
-                    </a>
-                    <span>2014</span>
-                    <p>English course in Ireland</p>
                   </div>
                 </div>
               </div>
@@ -1011,10 +824,28 @@ function MainPage() {
               </div>
               <div className="row">
                 <div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
+                    <div className="thumbnail z-depth-1 animated">
+                      <div>
+                        <div className="post-title" id="blog-post-1">
+                          <a
+                            href="https://medium.com/@francogtz/canceling-an-azure-suscription-6b2a4309c51c"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <h2>Canceling an Azure Subscription</h2>
+                            <span>Azure / Cloud</span>
+                          </a>
+                        </div>
+                        <div className="post-details">
+                          <p>
+                            A step-by-step guide on how to cancel an Azure subscription, covering the key considerations and actions to take before closing your account.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1025,7 +856,7 @@ function MainPage() {
                         </div>
                         <div className="post-details">
                           <p>
-                            In this article your will find a short story about
+                            In this article you will find a short story about
                             research on the field of the Consciousness and how
                             it is been using as learning methodology
                           </p>
@@ -1033,15 +864,12 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
                           <Link to={"blog/jorney-tracker"}>
-                            <h2>Andorid Project</h2>
+                            <h2>Android Project</h2>
                             <span>GPS</span>
                           </Link>
                         </div>
@@ -1054,10 +882,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1075,10 +900,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1096,10 +918,7 @@ function MainPage() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col s12 wow fadeIn a2"
-                    data-wow-delay="0.2s"
-                  >
+                  <div className="col s12 wow fadeIn a2" data-wow-delay="0.2s">
                     <div className="thumbnail z-depth-1 animated">
                       <div>
                         <div className="post-title" id="blog-post-1">
@@ -1151,6 +970,9 @@ function MainPage() {
                         data-delay="50"
                         data-tooltip="linkedin"
                         href="https://ie.linkedin.com/in/franco-gutierrez-4a073483"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn profile"
                       ></a>
                     </li>
                     <li>
@@ -1159,7 +981,10 @@ function MainPage() {
                         data-position="top"
                         data-delay="50"
                         data-tooltip="Github"
-                        href="http://github.com/francoj22"
+                        href="https://github.com/francoj22"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub profile"
                       ></a>
                     </li>
                   </ul>
@@ -1169,7 +994,6 @@ function MainPage() {
           </div>
         </section>
       </>
-    </>
   );
 }
 

@@ -49,7 +49,7 @@ const POSTS = [
         <p><strong>Resources:</strong></p>
         <ul>
           <li><a href="https://developer.android.com/index.html">Official WebSite. Android</a></li>
-          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+          <li><a href="http://stackoverflow.com/">Official WebSite. Stackoverflow</a></li>
         </ul>
 
       `,
@@ -85,7 +85,7 @@ const POSTS = [
         <p><strong>Resources:</strong></p>
         <ul>
           <li><a href="https://www.jayway.com/2012/12/12/creating-custom-android-views-part-4-measuring-and-how-to-force-a-view-to-be-square/">Custom View Sample. Anders Ericsson</a></li>
-          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+          <li><a href="http://stackoverflow.com/">Official WebSite. Stackoverflow</a></li>
         </ul>           
       `,
     date: "2015",
@@ -120,8 +120,8 @@ const POSTS = [
 
         <p><strong>Resources:</strong></p>
         <ul>
-          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
-          <li><a href="https://www.facebook.com/Memetomia/">Offical WebSite. Memetomia</a></li>
+          <li><a href="http://stackoverflow.com/">Official WebSite. Stackoverflow</a></li>
+          <li><a href="https://www.facebook.com/Memetomia/">Official WebSite. Memetomia</a></li>
         </ul>           
       `,
     date: "2013",
@@ -152,7 +152,7 @@ const POSTS = [
         <p><strong>Resources:</strong></p>
         <ul>
           <li><a href="https://developer.android.com/index.html">Official WebSite. Android</a></li>
-          <li><a href="http://stackoverflow.com/">Offical WebSite. Stackoverflow</a></li>
+          <li><a href="http://stackoverflow.com/">Official WebSite. Stackoverflow</a></li>
         </ul> 
       `,
     date: "2014",
