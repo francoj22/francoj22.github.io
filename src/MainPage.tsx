@@ -557,7 +557,7 @@ function MainPage() {
                     <span>Feb 2015 to April 2017</span>
                     <p>
                       In this role, I gained experience developing a website
-                      using Material Design, PHP, AngularJS, and MySQL. It is a
+                      using Material Design, Android, Spring Boot, PHP, Angular, and MySQL. It is a
                       personal project which integrates an app made for Android
                       devices that populates a list of music from RESTful web
                       services.
