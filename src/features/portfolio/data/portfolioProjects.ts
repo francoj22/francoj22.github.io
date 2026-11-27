@@ -17,6 +17,13 @@ import esbnetworks from "../../../assets/images/esbnetworks.png";
 import type { PortfolioProject } from "../domain/portfolio.types";
 
 export const portfolioProjects: PortfolioProject[] = [
+    {
+    image: sugifkms,
+    alt: "Official SUGI FKMS site",
+    title: "SUGI FKMS",
+    summary: "Shipped full-stack capabilities for the official business platform.",
+    stack: "Spring Boot, React, Docker, Azure DevOps, AWS",
+  },
   { 
     image: esbnetworks,
     alt: "ESB Networks project",
@@ -61,13 +68,6 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "SUGI Search Jobs",
     summary: "Implemented product features for a searchable jobs experience.",
     stack: "JavaScript, TailwindCSS, Vue, Docker",
-  },
-  {
-    image: sugifkms,
-    alt: "Official SUGI FKMS site",
-    title: "SUGI FKMS",
-    summary: "Shipped full-stack capabilities for the official business platform.",
-    stack: "Spring Boot, React, Docker, Azure DevOps, AWS",
   },
   {
     image: scuv14,
