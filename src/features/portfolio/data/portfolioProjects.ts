@@ -37,7 +37,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Fidelity Investments",
     summary:
       "Web development and microservices work for one of the largest asset managers in the world.",
-    stack: "React, TypeScript, Microservices, Testing",
+    stack: "Angular, React.js, TypeScript, Java (Spring Boot) and Node.js, Microservices, Testing",
   },
   {
     image: exadsSite,
@@ -52,7 +52,7 @@ export const portfolioProjects: PortfolioProject[] = [
     alt: "Compliance Center and I-9 platform",
     title: "Equifax Compliance Center",
     summary: "Built features for compliance workflows and I-9 platform modules.",
-    stack: "Angular, Bootstrap, Jasmine, Karma, Material UI",
+    stack: "Angular, Bootstrap, Jasmine, Karma, Material UI, AWS, Docker, Jenkins, ASP.NET Core Web API",
   },
   {
     image: medicalSite,
