@@ -37,7 +37,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Fidelity Investments",
     summary:
       "Web development and microservices work for one of the largest asset managers in the world.",
-    stack: "Angular, React.js, TypeScript, Java (Spring Boot) and Node.js, Microservices, Testing, DevOps, Jenkins",
+    stack: "Angular, React.js, TypeScript, Java (Spring Boot) and Node.js, Microservices, Testing, DevOps, Jenkins"
   },
   {
     image: exadsSite,
