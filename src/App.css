@@ -59,6 +59,8 @@
 
 .portfolio-card {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   background: #fff;
   border-radius: 0;
@@ -75,6 +77,7 @@
 
 .portfolio-image-wrap {
   aspect-ratio: 16 / 10;
+  flex-shrink: 0;
   overflow: hidden;
   background: #f4f7fb;
 }
@@ -92,6 +95,9 @@
 }
 
 .portfolio-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 18px 18px 20px;
 }
 
@@ -110,9 +116,10 @@
   line-height: 1.55;
 }
 
-.portfolio-stack {
-  margin-top: 10px !important;
-  color: #1e88e5 !important;
+.portfolio-card-body .portfolio-stack {
+  margin-top: auto;
+  padding-top: 10px;
+  color: #1e88e5;
   font-weight: 600;
 }
 

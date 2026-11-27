@@ -22,7 +22,7 @@ export const portfolioProjects: PortfolioProject[] = [
     alt: "Official SUGI FKMS site",
     title: "SUGI FKMS",
     summary: "Shipped full-stack capabilities for the official business platform.",
-    stack: "Spring Boot, React, Docker, Azure DevOps, AWS",
+    stack: "Spring Boot, React, Docker, Azure DevOps, AWS, Jenkins, Github Actions",
   },
   { 
     image: esbnetworks,
@@ -37,7 +37,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Fidelity Investments",
     summary:
       "Web development and microservices work for one of the largest asset managers in the world.",
-    stack: "Angular, React.js, TypeScript, Java (Spring Boot) and Node.js, Microservices, Testing",
+    stack: "Angular, React.js, TypeScript, Java (Spring Boot) and Node.js, Microservices, Testing, DevOps, Jenkins",
   },
   {
     image: exadsSite,
@@ -45,14 +45,14 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Exads",
     summary:
       "Contributed to ad-tech platform experiences across Angular and React properties.",
-    stack: "Angular, React, Jasmine, Karma, MUI, TailwindCSS",
+    stack: "Angular, React, Jasmine, Karma, MUI, TailwindCSS, Kibana, Cypress, Node.js, DevOps",
   },
   {
     image: equifaxSite,
     alt: "Compliance Center and I-9 platform",
     title: "Equifax Compliance Center",
     summary: "Built features for compliance workflows and I-9 platform modules.",
-    stack: "Angular, Bootstrap, Jasmine, Karma, Material UI, AWS, Docker, Jenkins, ASP.NET Core Web API",
+    stack: "Angular, Bootstrap, Jasmine, Karma, Material UI, AWS, Docker, DevOps, ASP.NET Core Web API",
   },
   {
     image: medicalSite,
@@ -90,7 +90,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Live Irish Radio",
     summary:
       "Built web, mobile, and backend pieces for streaming-first experiences.",
-    stack: "Java, REST APIs, Mobile, Web",
+    stack: "Spring Boot, Java, REST APIs, Mobile, Web",
   },
   {
     image: stream1,
@@ -114,7 +114,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Document Automation App",
     summary:
       "Implemented document workflow features with robust cloud-friendly delivery.",
-    stack: "JavaScript, UI Engineering, Docker",
+    stack: "React.js, JavaScript, UI Engineering, Docker",
   },
   {
     image: laundrywithme,
