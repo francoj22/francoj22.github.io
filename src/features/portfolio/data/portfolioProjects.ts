@@ -12,9 +12,18 @@ import mailboxSite from "../../../assets/images/project-mailbox.png";
 import scuv14 from "../../../assets/images/project-scuv14.png";
 import laundrywithme from "../../../assets/images/laundrywithme.png";
 import swaggerUi from "../../../assets/images/SwaggerUI.png";
+import esbnetworks from "../../../assets/images/esbnetworks.png";
+
 import type { PortfolioProject } from "../domain/portfolio.types";
 
 export const portfolioProjects: PortfolioProject[] = [
+  { 
+    image: esbnetworks,
+    alt: "ESB Networks project",
+    title: "ESB Networks",
+    summary: "Worked on implementing the design system, and authentication flows, ensuring consistency and efficiency across projects.",
+    stack: "React.js, Design Systems, Azure DevOps",
+  },
   {
     image: fideitySite,
     alt: "Fidelity Investment - Digital Platform",
@@ -122,5 +131,5 @@ export const portfolioProjects: PortfolioProject[] = [
     summary:
       "Implemented an interactive API documentation portal to test endpoints, validate contracts, and improve developer onboarding.",
     stack: "OpenAPI, SwaggerUI, REST APIs, Documentation",
-  },
+  }
 ];
