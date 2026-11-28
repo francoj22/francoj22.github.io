@@ -3,8 +3,10 @@ import profile from "./assets/images/short-profile.png";
 import { Link } from "react-router";
 import "animate.css";
 import PortfolioSection from "./components/PortfolioSection";
+import HeroIntro from "./components/HeroIntro"
 import { portfolioProjects } from "./features/portfolio/data/portfolioProjects";
 import useLegacyLandingScripts from "./hooks/useLegacyLandingScripts";
+
 
 function MainPage() {
   useLegacyLandingScripts();
@@ -25,7 +27,7 @@ function MainPage() {
               </div>
             </div>
           </div>
-
+          
           <div id="header-bottom" className="z-depth-1">
             <div id="sticky-nav">
               <div className="container">
@@ -110,13 +112,13 @@ function MainPage() {
                   >
                     <img src={profile} alt="" />
                   </div>
-                </div>
+                </div>  
+                <HeroIntro />            
                 <div
                   className="col m12 s12 co-centered wow fadeIn a2"
                   data-wow-delay="0.2s"
                 >
-                  <div className="intro-content">
-                    <h2>Hi, I'm Franco Gutierrez</h2>
+                  <div className="intro-content">       
                     <span>
                        A Certified Software Engineer, Cloud Enthusiast and Writing Avocate
                     </span>
